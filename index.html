@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>正念抽籤 - 回到當下的溫柔提醒</title>
+    <meta name="description" content="當你感到焦慮、迷失或需要片刻寧靜時，抽一張正念籤，讓溫柔的文字帶你回到當下。">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 主容器 -->
+    <div class="container">
+        
+        <!-- Logo 區域 -->
+        <div class="logo-section">
+            <img src="images/logo.png" alt="正念抽籤 Logo" class="logo">
+        </div>
+
+        <!-- 標題區域 -->
+        <header class="header">
+            <h1 class="main-title">正念抽籤</h1>
+            <p class="subtitle">回到當下的溫柔提醒</p>
+        </header>
+
+        <!-- 輸入區域 -->
+        <section id="input-section" class="input-section">
+            <div class="input-container">
+                <p class="instruction">請輸入 1-50 之間的票號</p>
+                
+                <div class="input-group">
+                    <input 
+                        type="number" 
+                        id="ticket-input" 
+                        class="ticket-input" 
+                        placeholder="輸入票號..."
+                        min="1"
+                        max="50"
+                        autocomplete="off"
+                    >
+                    <button id="draw-button" class="draw-button">
+                        抽籤
+                    </button>
+                </div>
+
+                <button id="random-button" class="random-button">
+                    🎲 隨機抽籤
+                </button>
+
+                <!-- 錯誤訊息 -->
+                <div id="error-message" class="error-message"></div>
+            </div>
+
+            <!-- 使用說明 -->
+            <div class="guide">
+                <p class="guide-text">💡 小提示</p>
+                <ul class="guide-list">
+                    <li>選擇一個直覺吸引你的數字</li>
+                    <li>或點擊「隨機抽籤」讓宇宙為你選擇</li>
+                    <li>每張籤都有獨特的正念練習</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 票卡顯示區域 -->
+        <section id="ticket-section" class="ticket-section" style="display: none;">
+            <div class="ticket-card">
+                
+                <!-- 呼吸動畫 -->
+                <div class="breath-animation">
+                    <div class="breath-circle"></div>
+                </div>
+
+                <!-- 票卡內容 -->
+                <div class="ticket-content-wrapper">
+                    
+                    <!-- 票號與主題 -->
+                    <div class="ticket-header">
+                        <span id="ticket-number" class="ticket-number">#1</span>
+                        <span id="ticket-theme" class="ticket-theme">呼吸</span>
+                    </div>
+
+                    <!-- 標題 -->
+                    <h2 id="ticket-title" class="ticket-title">
+                        你的呼吸知道你需要什麼
+                    </h2>
+
+                    <!-- 主要內容 -->
+                    <div class="ticket-main-content">
+                        <p id="ticket-content" class="ticket-text">
+                            此刻，你不需要做任何事，只需要呼吸。你的身體知道如何呼吸，它從未忘記。讓每一次吸氣帶來新鮮，每一次吐氣帶走緊繃。
+                        </p>
+                    </div>
+
+                    <!-- 分隔線 -->
+                    <div class="divider"></div>
+
+                    <!-- 問題引導 -->
+                    <div class="ticket-question-section">
+                        <p class="section-label">🤔 問問自己</p>
+                        <p id="ticket-question" class="ticket-question">
+                            現在，你的呼吸是什麼樣子的？
+                        </p>
+                    </div>
+
+                    <!-- 行動提示 -->
+                    <div class="ticket-action-section">
+                        <p class="section-label">✨ 試試看</p>
+                        <p id="ticket-action" class="ticket-action">
+                            閉上眼睛，深呼吸三次，感受空氣進出身體的感覺。
+                        </p>
+                    </div>
+
+                    <!-- 肯定語句 -->
+                    <div class="ticket-affirmation-section">
+                        <p id="ticket-affirmation" class="ticket-affirmation">
+                            「我的呼吸，是我與當下最親密的連結」
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- 再抽一張按鈕 -->
+                <button id="draw-again" class="draw-again-button">
+                    再抽一張
+                </button>
+
+            </div>
+        </section>
+
+        <!-- 頁尾 -->
+        <footer class="footer">
+            <p class="footer-text">
+                每一個當下，都是重新開始的機會 🌸
+            </p>
+            <p class="footer-credit">
+                Made with ❤️ for mindful living
+            </p>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
