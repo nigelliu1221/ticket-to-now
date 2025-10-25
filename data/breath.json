@@ -1,0 +1,114 @@
+{
+  "gentle": {
+    "name": "溫柔呼吸",
+    "description": "適合需要被理解與修復的時刻",
+    "pattern": {
+      "inhale": 4,
+      "hold": 4,
+      "exhale": 6
+    },
+    "instructions": [
+      { "time": 0, "text": "閉上眼睛，找到舒適的姿勢" },
+      { "time": 3, "text": "輕輕吸氣" },
+      { "time": 7, "text": "停頓片刻" },
+      { "time": 11, "text": "慢慢吐氣" },
+      { "time": 17, "text": "感受身體的放鬆" }
+    ]
+  },
+  "energize": {
+    "name": "活力呼吸",
+    "description": "適合需要行動力與專注的時刻",
+    "pattern": {
+      "inhale": 3,
+      "hold": 2,
+      "exhale": 4
+    },
+    "instructions": [
+      { "time": 0, "text": "坐直身體，感受脊椎的延伸" },
+      { "time": 2, "text": "深深吸氣" },
+      { "time": 5, "text": "短暫停留" },
+      { "time": 7, "text": "有力吐氣" },
+      { "time": 11, "text": "感受能量在體內流動" }
+    ]
+  },
+  "restore": {
+    "name": "修復呼吸",
+    "description": "適合需要療癒與恢復的時刻",
+    "pattern": {
+      "inhale": 5,
+      "hold": 5,
+      "exhale": 7
+    },
+    "instructions": [
+      { "time": 0, "text": "放鬆肩膀，釋放緊張" },
+      { "time": 3, "text": "溫柔地吸氣" },
+      { "time": 8, "text": "在頂點停留" },
+      { "time": 13, "text": "緩緩吐氣" },
+      { "time": 20, "text": "感受療癒的發生" }
+    ]
+  },
+  "focus": {
+    "name": "專注呼吸",
+    "description": "適合需要回到當下的時刻",
+    "pattern": {
+      "inhale": 4,
+      "hold": 4,
+      "exhale": 4
+    },
+    "instructions": [
+      { "time": 0, "text": "將注意力帶回呼吸" },
+      { "time": 2, "text": "吸氣，數到四" },
+      { "time": 6, "text": "停留，數到四" },
+      { "time": 10, "text": "吐氣，數到四" },
+      { "time": 14, "text": "持續專注於呼吸的節奏" }
+    ]
+  },
+  "calm": {
+    "name": "平靜呼吸",
+    "description": "適合需要安定與寧靜的時刻",
+    "pattern": {
+      "inhale": 4,
+      "hold": 7,
+      "exhale": 8
+    },
+    "instructions": [
+      { "time": 0, "text": "讓身體沉入平靜" },
+      { "time": 3, "text": "輕柔吸氣" },
+      { "time": 7, "text": "在寧靜中停留" },
+      { "time": 14, "text": "長長吐氣" },
+      { "time": 22, "text": "感受深層的平靜" }
+    ]
+  },
+  "hope": {
+    "name": "希望呼吸",
+    "description": "適合需要展望與期待的時刻",
+    "pattern": {
+      "inhale": 5,
+      "hold": 3,
+      "exhale": 5
+    },
+    "instructions": [
+      { "time": 0, "text": "想像明亮的未來" },
+      { "time": 2, "text": "深深吸入希望" },
+      { "time": 7, "text": "讓它在心中停留" },
+      { "time": 10, "text": "溫柔釋放" },
+      { "time": 15, "text": "感受內在的光芒" }
+    ]
+  },
+  "gratitude": {
+    "name": "感恩呼吸",
+    "description": "適合需要圓滿與感謝的時刻",
+    "pattern": {
+      "inhale": 4,
+      "hold": 4,
+      "exhale": 6
+    },
+    "instructions": [
+      { "time": 0, "text": "回想值得感謝的時刻" },
+      { "time": 3, "text": "吸入感恩" },
+      { "time": 7, "text": "讓感謝充滿內心" },
+      { "time": 11, "text": "慢慢吐氣" },
+      { "time": 17, "text": "感受圓滿與完整" }
+    ]
+  }
+}

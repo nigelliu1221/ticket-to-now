@@ -1,0 +1,41 @@
+# GitHub Pages Configuration
+
+# 基本設定
+theme: null
+title: Ticket to Now｜通往當下的票
+description: 一個簡單輸入，就能讓你回到當下
+author: Your Name
+lang: zh-TW
+
+# 包含文件
+include:
+  - .htaccess
+  - _pages
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .DS_Store
+
+# Markdown 處理器
+markdown: kramdown
+
+# 插件
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO 設定
+url: "https://yourusername.github.io"
+baseurl: "/ticket-to-now"
+
+# 社交連結
+social:
+  github: yourusername
+  twitter: yourusername

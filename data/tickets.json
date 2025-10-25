@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "theme": "行動流域",
+    "title": "從一個小決定開始",
+    "content": "每個行動都是改變的種子。",
+    "question": "此刻我可以採取哪個最小的行動？",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 2,
+    "theme": "共感流域",
+    "title": "允許自己被理解",
+    "content": "脆弱是連結的開始。",
+    "question": "我想被誰理解？我準備好了嗎？",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 3,
+    "theme": "修復流域",
+    "title": "給自己一點修復的時間",
+    "content": "療癒不需要完美，只需要開始。",
+    "question": "此刻我的身體想告訴我什麼？",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 4,
+    "theme": "接納流域",
+    "title": "這樣的我也很好",
+    "content": "不完美的自己，也值得被愛。",
+    "question": "我能接納自己的哪個部分？",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 5,
+    "theme": "專注流域",
+    "title": "回到此刻的呼吸",
+    "content": "當下是唯一真實存在的時刻。",
+    "question": "此刻我的感受是什麼？",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 127,
+    "theme": "修復流域",
+    "title": "先陪自己安靜片刻",
+    "content": "再向外分享溫柔與在意。",
+    "question": "此刻我需要如何被理解，才能感覺安心？",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 250,
+    "theme": "希望流域",
+    "title": "未來仍有無限可能",
+    "content": "每個今天都是新的開始。",
+    "question": "我對未來抱持什麼樣的期待？",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 365,
+    "theme": "平靜流域",
+    "title": "讓心安住在寧靜中",
+    "content": "平靜不是沒有風浪，而是學會與之共處。",
+    "question": "此刻什麼能讓我感到平靜？",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 500,
+    "theme": "圓滿流域",
+    "title": "每個結束都是新的開始",
+    "content": "感謝自己走過的每一步。",
+    "question": "我想對自己說什麼？",
+    "breath": "gratitude",
+    "color": "#F8E8F4"
+  }
+]

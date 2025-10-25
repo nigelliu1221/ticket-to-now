@@ -1,0 +1,35 @@
+{
+  "name": "ticket-to-now",
+  "version": "1.0.0",
+  "description": "一個簡單輸入，就能讓你回到當下 - Ticket to Now｜通往當下的票",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . -l 8000",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/ticket-to-now.git"
+  },
+  "keywords": [
+    "mindfulness",
+    "meditation",
+    "breathing",
+    "wellness",
+    "mental-health",
+    "minimalist",
+    "interactive-art"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/ticket-to-now/issues"
+  },
+  "homepage": "https://github.com/yourusername/ticket-to-now#readme",
+  "devDependencies": {
+    "serve": "^14.2.0",
+    "gh-pages": "^6.0.0"
+  }
+}
