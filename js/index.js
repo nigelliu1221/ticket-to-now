@@ -15,6 +15,7 @@ class TicketToNow {
 
     async init() {
         await this.loadData();
+        this.loadRandomTagline();
         this.setupEventListeners();
         this.checkTodayTicket();
     }
@@ -33,6 +34,29 @@ class TicketToNow {
         } catch (error) {
             console.error('資料載入失敗:', error);
             this.showNotification('資料載入失敗，請重新整理頁面');
+        }
+    }
+
+    async loadRandomTagline() {
+        try {
+            const response = await fetch('data/taglines.json');
+            const data = await response.json();
+            const taglines = data.taglines;
+            
+            // 隨機選擇一個文案
+            const randomIndex = Math.floor(Math.random() * taglines.length);
+            const randomTagline = taglines[randomIndex];
+            
+            // 更新頁面上的文案
+            const subtitleElement = document.getElementById('subtitle');
+            if (subtitleElement) {
+                subtitleElement.textContent = randomTagline;
+            }
+            
+            console.log('隨機文案載入:', randomTagline);
+        } catch (error) {
+            console.error('文案載入失敗:', error);
+            // 如果載入失敗，保留預設文案
         }
     }
 
