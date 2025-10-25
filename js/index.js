@@ -22,8 +22,8 @@ class TicketToNow {
 
     async loadData() {
         try {
-            // 載入票卡資料
-            const ticketsResponse = await fetch('data/tickets.json');
+            // 載入票卡資料（完整 500 張）
+            const ticketsResponse = await fetch('data/tickets_full.json');
             this.tickets = await ticketsResponse.json();
 
             // 載入呼吸引導資料
