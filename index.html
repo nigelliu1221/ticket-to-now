@@ -17,12 +17,15 @@
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #FF9966 0%, #FFB84D 100%);
             min-height: 100vh;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 20px;
+            padding-bottom: 80px;
+            position: relative;
         }
         
         .container {
@@ -33,24 +36,27 @@
             width: 100%;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             text-align: center;
+            position: relative;
         }
         
         .logo {
-            width: 80px;
-            height: 80px;
-            margin: 0 auto 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 40px;
+            width: 200px;
+            height: auto;
+            margin: 0 auto 15px;
+            display: block;
+        }
+        
+        .tagline {
+            font-size: 15px;
+            color: #FF9966;
+            font-weight: 500;
+            margin-bottom: 15px;
         }
         
         h1 {
             font-size: 32px;
             color: #1a1a1a;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             font-weight: 600;
         }
         
@@ -78,12 +84,12 @@
         
         input:focus {
             outline: none;
-            border-color: #667eea;
+            border-color: #FF9966;
         }
         
         button {
             width: 100%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #FF9966 0%, #FFB84D 100%);
             color: white;
             border: none;
             padding: 16px;
@@ -96,13 +102,21 @@
         
         button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 8px 20px rgba(255, 153, 102, 0.4);
         }
         
         .hint {
             color: #999;
             font-size: 14px;
             margin-top: 15px;
+        }
+        
+        .version {
+            position: fixed;
+            bottom: 20px;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 13px;
+            font-weight: 500;
         }
         
         .main-screen {
@@ -129,7 +143,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #FF9966 0%, #FFB84D 100%);
             z-index: 1000;
             flex-direction: column;
             align-items: center;
@@ -147,34 +161,35 @@
         }
         
         .back-button {
-            position: fixed;
-            top: 20px;
-            left: 20px;
             background: white;
-            color: #667eea;
-            border: 2px solid #667eea;
+            color: #FF9966;
+            border: 2px solid #FF9966;
             width: 48px;
             height: 48px;
             border-radius: 50%;
-            display: flex;
+            display: none;
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 4px 12px rgba(255, 153, 102, 0.3);
             transition: all 0.2s;
             font-size: 24px;
             padding: 0;
-            z-index: 100;
+            margin: 20px auto 0;
+        }
+        
+        .back-button.show {
+            display: flex;
         }
         
         .back-button:hover {
-            background: #667eea;
+            background: #FF9966;
             color: white;
             transform: scale(1.1);
         }
         
         .ticket {
-            background: #f8f9ff;
+            background: #FFF5ED;
             padding: 30px;
             border-radius: 16px;
             margin: 20px 0;
@@ -185,7 +200,7 @@
             justify-content: space-between;
             margin-bottom: 20px;
             font-size: 14px;
-            color: #667eea;
+            color: #FF9966;
             font-weight: 500;
         }
         
@@ -203,14 +218,14 @@
         }
         
         .breath-button {
-            background: rgba(102, 126, 234, 0.1);
-            color: #667eea;
-            border: 2px solid #667eea;
+            background: rgba(255, 153, 102, 0.1);
+            color: #FF9966;
+            border: 2px solid #FF9966;
             margin-top: 20px;
         }
         
         .breath-button:hover {
-            background: rgba(102, 126, 234, 0.2);
+            background: rgba(255, 153, 102, 0.2);
         }
         
         /* 呼吸練習畫面 */
@@ -263,12 +278,6 @@
         .breath-timer {
             font-size: 72px;
             font-weight: 700;
-            margin-bottom: 15px;
-        }
-        
-        .breath-cycle {
-            font-size: 18px;
-            opacity: 0.85;
             margin-bottom: 50px;
         }
         
@@ -283,30 +292,15 @@
         .stop-button:hover {
             background: rgba(255, 255, 255, 0.3);
         }
-        
-        .info {
-            background: #e8f5e9;
-            border: 1px solid #4caf50;
-            padding: 12px;
-            border-radius: 8px;
-            margin: 15px 0;
-            color: #2e7d32;
-            font-size: 14px;
-        }
     </style>
 </head>
 <body>
-    <button class="back-button" id="backButton" style="display: none;">←</button>
-    
     <div class="container">
         <div id="mainScreen" class="main-screen">
-            <div class="logo">🎟️</div>
+            <img src="data:image/png;base64,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" alt="Logo" class="logo">
+            <div class="tagline">明想正念日票</div>
             <h1>Ticket to Now</h1>
             <p id="subtitle" class="subtitle">載入中...</p>
-            
-            <div class="info">
-                ✅ v2.3.4 - 完整版本
-            </div>
             
             <div class="input-section">
                 <input 
@@ -336,7 +330,11 @@
                 💨 呼吸練習 30 秒
             </button>
         </div>
+        
+        <button class="back-button" id="backButton">←</button>
     </div>
+    
+    <div class="version">v2.4.1</div>
     
     <div id="breathScreen" class="breath-screen">
         <div class="breath-name" id="breathName"></div>
@@ -344,7 +342,6 @@
         <div class="breath-circle" id="breathCircle"></div>
         <div class="breath-instruction" id="breathInstruction">準備開始</div>
         <div class="breath-timer" id="breathTimer">30</div>
-        <div class="breath-cycle" id="breathCycle"></div>
         <button class="stop-button" id="stopButton">結束練習</button>
     </div>
     
@@ -358,6 +355,7 @@
         let currentCycle = 0;
         let timeRemaining = 30;
         let isBreathing = false;
+        let breathSessionCount = 0;  // 追蹤呼吸練習次數
         
         function loadRandomTagline() {
             const randomIndex = Math.floor(Math.random() * taglines.length);
@@ -383,7 +381,7 @@
                 
                 document.getElementById('mainScreen').classList.add('hidden');
                 document.getElementById('result').classList.add('show');
-                document.getElementById('backButton').style.display = 'flex';
+                document.getElementById('backButton').classList.add('show');
             } else {
                 alert('找不到這張票卡');
             }
@@ -393,20 +391,22 @@
             document.getElementById('mainScreen').classList.remove('hidden');
             document.getElementById('result').classList.remove('show');
             document.getElementById('ticketInput').value = '';
-            document.getElementById('backButton').style.display = 'none';
+            document.getElementById('backButton').classList.remove('show');
         }
         
         function startBreath() {
-            const today = new Date().toDateString();
-            const seed = today.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-            const patternIndex = seed % breathPatterns.length;
+            // 每次練習使用不同的呼吸法
+            breathSessionCount++;
+            const patternIndex = breathSessionCount % breathPatterns.length;
             currentPattern = breathPatterns[patternIndex];
+            
+            console.log('呼吸法 #' + breathSessionCount + ':', currentPattern.name);
             
             document.getElementById('breathName').textContent = currentPattern.name;
             document.getElementById('breathDesc').textContent = currentPattern.description;
             
             document.getElementById('breathScreen').classList.add('show');
-            document.getElementById('backButton').style.display = 'none';
+            document.getElementById('backButton').classList.remove('show');
             
             const circle = document.getElementById('breathCircle');
             circle.style.setProperty('--inhale-duration', currentPattern.inhale + 's');
@@ -436,7 +436,6 @@
             if (currentCycle >= currentPattern.cycles) return;
             
             currentCycle++;
-            updateCycleDisplay();
             
             setBreathState('吸氣', 'inhale');
             
@@ -474,11 +473,6 @@
             document.getElementById('breathCircle').className = 'breath-circle ' + circleClass;
         }
         
-        function updateCycleDisplay() {
-            document.getElementById('breathCycle').textContent = 
-                `第 ${currentCycle} / ${currentPattern.cycles} 輪`;
-        }
-        
         function stopBreath() {
             isBreathing = false;
             
@@ -488,11 +482,10 @@
             }
             
             document.getElementById('breathScreen').classList.remove('show');
-            document.getElementById('backButton').style.display = 'flex';
+            document.getElementById('backButton').classList.add('show');
             
             document.getElementById('breathCircle').className = 'breath-circle';
             document.getElementById('breathInstruction').textContent = '準備開始';
-            document.getElementById('breathCycle').textContent = '';
             document.getElementById('breathTimer').textContent = '30';
         }
         
@@ -505,8 +498,9 @@
         });
         
         loadRandomTagline();
-        console.log('✅ Ticket to Now v2.3.4');
-        console.log('🎟️ 票券圖示已加入分頁');
+        console.log('✅ Ticket to Now v2.4.1');
+        console.log('🍊 明想正念日票');
+        console.log('🌬️ 10 種呼吸法已就緒');
     </script>
 </body>
 </html>
