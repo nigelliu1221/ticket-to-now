@@ -1,0 +1,23 @@
+📦 完整專案檔案列表
+═══════════════════════════════════════════
+
+⭐ 主程式（唯一必需）：
+  • index.html (102KB)
+
+📖 說明文件：
+  • README.md (11KB) - 完整說明
+  • QUICKSTART.md (4KB) - 快速開始
+  • PROJECT_SUMMARY.txt (5KB) - 專案摘要
+  • FILE_LIST.md (3KB) - 檔案清單
+
+📊 資料檔案（供參考）：
+  • data/tickets_full.json (78KB)
+  • data/taglines.json (2KB)
+  • data/breath_patterns.json (1KB)
+
+🔧 技術文件：
+  • docs/FIX_v2.3.2_FINAL.md (15KB)
+  • docs/ANIMATION_v2.3.3.md (10KB)
+
+═══════════════════════════════════════════
+總計：10 個檔案，244 KB
