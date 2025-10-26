@@ -1,0 +1,104 @@
+{
+  "patterns": [
+    {
+      "id": 1,
+      "name": "平衡呼吸",
+      "description": "最基礎的平衡節奏",
+      "inhale": 4,
+      "hold": 0,
+      "exhale": 4,
+      "cycles": 3,
+      "totalTime": 30
+    },
+    {
+      "id": 2,
+      "name": "放鬆呼吸",
+      "description": "延長吐氣，釋放緊張",
+      "inhale": 3,
+      "hold": 0,
+      "exhale": 6,
+      "cycles": 3,
+      "totalTime": 30
+    },
+    {
+      "id": 3,
+      "name": "活力呼吸",
+      "description": "快速節奏，提振精神",
+      "inhale": 2,
+      "hold": 0,
+      "exhale": 2,
+      "cycles": 7,
+      "totalTime": 30
+    },
+    {
+      "id": 4,
+      "name": "深度呼吸",
+      "description": "緩慢深入，平靜身心",
+      "inhale": 5,
+      "hold": 0,
+      "exhale": 5,
+      "cycles": 3,
+      "totalTime": 30
+    },
+    {
+      "id": 5,
+      "name": "專注呼吸",
+      "description": "短暫停頓，提升專注",
+      "inhale": 3,
+      "hold": 2,
+      "exhale": 3,
+      "cycles": 3,
+      "totalTime": 30
+    },
+    {
+      "id": 6,
+      "name": "舒緩呼吸",
+      "description": "溫和節奏，舒緩情緒",
+      "inhale": 4,
+      "hold": 1,
+      "exhale": 5,
+      "cycles": 3,
+      "totalTime": 30
+    },
+    {
+      "id": 7,
+      "name": "清晨呼吸",
+      "description": "迎接新的一天",
+      "inhale": 3,
+      "hold": 1,
+      "exhale": 3,
+      "cycles": 4,
+      "totalTime": 30
+    },
+    {
+      "id": 8,
+      "name": "午間充電",
+      "description": "快速恢復能量",
+      "inhale": 2,
+      "hold": 1,
+      "exhale": 2,
+      "cycles": 6,
+      "totalTime": 30
+    },
+    {
+      "id": 9,
+      "name": "睡前放鬆",
+      "description": "準備進入夢鄉",
+      "inhale": 4,
+      "hold": 2,
+      "exhale": 6,
+      "cycles": 2,
+      "totalTime": 30
+    },
+    {
+      "id": 10,
+      "name": "正念呼吸",
+      "description": "回到當下此刻",
+      "inhale": 4,
+      "hold": 2,
+      "exhale": 4,
+      "cycles": 3,
+      "totalTime": 30
+    }
+  ]
+}

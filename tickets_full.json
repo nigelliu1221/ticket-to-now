@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 1,
+    "theme": "微行動",
+    "title": "每個選擇都在創造",
+    "content": "此刻的決定，正在編織未來的你。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 2,
+    "theme": "情緒流動",
+    "title": "情緒是內在的信使",
+    "content": "那些起伏都在提醒你，某些部分需要被看見。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 3,
+    "theme": "人際連結",
+    "title": "脆弱是連結的橋樑",
+    "content": "當你展現真實，深度的連結就會到來。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 4,
+    "theme": "身體智慧",
+    "title": "身體記得所有未說的話",
+    "content": "那些緊繃，是身體在和你對話。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 5,
+    "theme": "自我接納",
+    "title": "接納陰影才能看見完整的光",
+    "content": "現在的你已經足夠好，接納全部才是自由。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 6,
+    "theme": "當下覺察",
+    "title": "當下是唯一真實存在的時刻",
+    "content": "回到呼吸，你就回家了。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 7,
+    "theme": "溫柔休息",
+    "title": "休息是為了走更遠的路",
+    "content": "停下來不是落後，而是延續前行的力量。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 8,
+    "theme": "內在對話",
+    "title": "你對自己說的話，形塑了你是誰",
+    "content": "那個嚴厲的聲音，可以被溫柔取代。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 9,
+    "theme": "放手流動",
+    "title": "放手不是放棄，是允許流動",
+    "content": "當你張開手掌，才能接住更多美好。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 10,
+    "theme": "感恩日常",
+    "title": "感恩讓平凡成為禮物",
+    "content": "美好一直都在，當你看見，世界會回應你。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 11,
+    "theme": "微行動",
+    "title": "行動是最溫柔的堅持",
+    "content": "開始不需要完美，只需要勇氣跨出第一步。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 12,
+    "theme": "情緒流動",
+    "title": "允許感受自然流動",
+    "content": "沒有情緒會永遠停留，允許它自然流動就好。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 13,
+    "theme": "人際連結",
+    "title": "真誠讓關係深刻",
+    "content": "真誠是關係的基礎，沒有它連結只是表面。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 14,
+    "theme": "身體智慧",
+    "title": "聆聽身體的訊號",
+    "content": "身體的訊號比頭腦的想法更誠實。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 15,
+    "theme": "自我接納",
+    "title": "你已經足夠好",
+    "content": "你一直想成為更好的人，但此刻的你已經很好。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 16,
+    "theme": "當下覺察",
+    "title": "回到呼吸就是回家",
+    "content": "你的心常在過去或未來，但生命只在此刻。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 17,
+    "theme": "溫柔休息",
+    "title": "停下來不是落後",
+    "content": "你已經很努力了，真的可以休息了。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 18,
+    "theme": "內在對話",
+    "title": "內在的聲音可以溫柔",
+    "content": "內在的聲音可以是批判，也可以是支持。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 19,
+    "theme": "放手流動",
+    "title": "有些事不在你的掌控中",
+    "content": "有些事你無法掌控，也許該鬆開了。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 20,
+    "theme": "感恩日常",
+    "title": "美好一直都在",
+    "content": "平凡的日常裡，藏著最珍貴的美好。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 21,
+    "theme": "微行動",
+    "title": "開始永遠不會太遲",
+    "content": "你一直在等的時機，就是現在。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 22,
+    "theme": "情緒流動",
+    "title": "沒有情緒需要被否定",
+    "content": "每個情緒都有它的意義，不需要急著趕走它。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 23,
+    "theme": "人際連結",
+    "title": "被理解是一種療癒",
+    "content": "被真正理解的感覺，是最深的療癒。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 24,
+    "theme": "身體智慧",
+    "title": "身體比頭腦更懂你",
+    "content": "你的身體比你想的更懂你，停下來聽聽它。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 25,
+    "theme": "自我接納",
+    "title": "不完美是完整的一部分",
+    "content": "不完美不是缺陷，而是讓你完整的一部分。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 26,
+    "theme": "當下覺察",
+    "title": "此刻就是全部",
+    "content": "此刻就是全部，沒有比現在更重要的了。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 27,
+    "theme": "溫柔休息",
+    "title": "你已經很努力了",
+    "content": "疲憊需要被看見，不是被忽略或否認。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 28,
+    "theme": "內在對話",
+    "title": "善待自己從言語開始",
+    "content": "善待自己從改變對自己說的話開始。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 29,
+    "theme": "放手流動",
+    "title": "緊握會累，鬆開會自由",
+    "content": "緊握會讓手痠，鬆開會讓心自由。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 30,
+    "theme": "感恩日常",
+    "title": "看見日常的奇蹟",
+    "content": "看見日常的奇蹟，感恩就會自然升起。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 31,
+    "theme": "微行動",
+    "title": "小事累積成大事",
+    "content": "每個微小的行動，都在累積成你想要的改變。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 32,
+    "theme": "情緒流動",
+    "title": "情緒來了又走",
+    "content": "情緒來了又走，就像潮汐，這是它的本質。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 33,
+    "theme": "人際連結",
+    "title": "連結從真實開始",
+    "content": "連結從你願意真實開始，而不是完美。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 34,
+    "theme": "身體智慧",
+    "title": "緊繃是身體的語言",
+    "content": "緊繃不只是肌肉的問題，是情緒在說話。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 35,
+    "theme": "自我接納",
+    "title": "接納全部的自己",
+    "content": "接納全部的自己，包括那些你不喜歡的部分。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 36,
+    "theme": "當下覺察",
+    "title": "過去已逝未來未至",
+    "content": "過去已經離開，未來還沒到來，只有現在屬於你。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 37,
+    "theme": "溫柔休息",
+    "title": "疲憊需要被看見",
+    "content": "休息是智慧，知道什麼時候該停下來。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 38,
+    "theme": "內在對話",
+    "title": "你值得被溫柔對待",
+    "content": "你值得被溫柔對待，從你自己開始。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 39,
+    "theme": "放手流動",
+    "title": "控制是幻覺",
+    "content": "控制是幻覺，放手是清醒。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 40,
+    "theme": "感恩日常",
+    "title": "感恩此刻",
+    "content": "感恩此刻所有的，不論大小。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 41,
+    "theme": "微行動",
+    "title": "此刻就是最好的時機",
+    "content": "不是準備好了才開始，而是開始了才會準備好。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 42,
+    "theme": "情緒流動",
+    "title": "感受是真實的存在",
+    "content": "你的感受都是真實的，不需要懷疑或否定。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 43,
+    "theme": "人際連結",
+    "title": "關係需要勇氣",
+    "content": "關係需要勇氣，去展現不完美的自己。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 44,
+    "theme": "身體智慧",
+    "title": "身體會說話",
+    "content": "身體會說話，用它自己的方式。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 45,
+    "theme": "自我接納",
+    "title": "你值得被愛",
+    "content": "你值得被愛，就是現在這個樣子。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 46,
+    "theme": "當下覺察",
+    "title": "活在當下",
+    "content": "活在當下不是口號，而是回到身體的感受。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 47,
+    "theme": "溫柔休息",
+    "title": "休息是智慧",
+    "content": "停下是勇氣，在這個不斷要求前進的世界。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 48,
+    "theme": "內在對話",
+    "title": "改變內在對話",
+    "content": "改變內在對話，改變就會發生。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 49,
+    "theme": "放手流動",
+    "title": "放手是智慧",
+    "content": "放手是智慧，知道什麼該放下。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 50,
+    "theme": "感恩日常",
+    "title": "平凡中的不平凡",
+    "content": "平凡中有不平凡，當你願意看見。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 51,
+    "theme": "微行動",
+    "title": "勇氣藏在第一步裡",
+    "content": "行動會帶來答案，猶豫只會帶來更多問題。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 52,
+    "theme": "情緒流動",
+    "title": "情緒不是敵人",
+    "content": "情緒不是你的敵人，它是內在想和你說話。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 53,
+    "theme": "人際連結",
+    "title": "同理心創造空間",
+    "content": "同理心創造了安全的空間，讓真實可以存在。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 54,
+    "theme": "身體智慧",
+    "title": "疲憊是一種提醒",
+    "content": "疲憊是身體在提醒你，該停下來了。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 55,
+    "theme": "自我接納",
+    "title": "完整包含光與影",
+    "content": "完整包含著光明和陰影，兩者缺一不可。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 56,
+    "theme": "當下覺察",
+    "title": "此刻是禮物",
+    "content": "此刻是禮物，這就是為什麼英文叫它 present。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 57,
+    "theme": "溫柔休息",
+    "title": "停下是勇氣",
+    "content": "你值得休息，不需要任何理由。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 58,
+    "theme": "內在對話",
+    "title": "你可以選擇聲音",
+    "content": "你可以選擇用什麼聲音對自己說話。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 59,
+    "theme": "放手流動",
+    "title": "鬆開是勇氣",
+    "content": "鬆開需要勇氣，比抓緊更需要。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 60,
+    "theme": "感恩日常",
+    "title": "美好藏在細節裡",
+    "content": "美好藏在細節裡，等待被發現。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 61,
+    "theme": "微行動",
+    "title": "行動帶來清晰",
+    "content": "改變從你決定的那一刻就開始了。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 62,
+    "theme": "情緒流動",
+    "title": "允許自己感受",
+    "content": "允許自己感受，這不是軟弱，是勇氣。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 63,
+    "theme": "人際連結",
+    "title": "真實帶來連結",
+    "content": "真實帶來深度的連結，偽裝只會帶來距離。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 64,
+    "theme": "身體智慧",
+    "title": "身體需要被聽見",
+    "content": "身體需要被聽見，就像心需要被理解。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 65,
+    "theme": "自我接納",
+    "title": "接納是自由",
+    "content": "接納是最深的自由，不再與自己為敵。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 66,
+    "theme": "當下覺察",
+    "title": "覺察是力量",
+    "content": "覺察是力量，看見當下就是看見真實。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 67,
+    "theme": "溫柔休息",
+    "title": "你值得休息",
+    "content": "累了就停，這不是軟弱是自我照顧。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 68,
+    "theme": "內在對話",
+    "title": "溫柔對自己說話",
+    "content": "溫柔地對自己說話，就像對朋友那樣。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 69,
+    "theme": "放手流動",
+    "title": "流動是生命",
+    "content": "流動是生命的本質，抗拒只會痛苦。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 70,
+    "theme": "感恩日常",
+    "title": "看見被忽略的美",
+    "content": "看見那些被忽略的美，它們一直都在。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 71,
+    "theme": "微行動",
+    "title": "改變從決定開始",
+    "content": "你擁有的力量，比自己想像的更多。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 72,
+    "theme": "情緒流動",
+    "title": "情緒帶著訊息而來",
+    "content": "每個情緒都帶著訊息而來，等待被聆聽。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 73,
+    "theme": "人際連結",
+    "title": "理解是相互的",
+    "content": "理解是相互的，你也需要被理解。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 74,
+    "theme": "身體智慧",
+    "title": "放鬆從身體開始",
+    "content": "放鬆從願意回到身體開始。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 75,
+    "theme": "自我接納",
+    "title": "你不需要更好",
+    "content": "你不需要變得更好才值得被愛。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 76,
+    "theme": "當下覺察",
+    "title": "當下是唯一",
+    "content": "當下是唯一真實存在的，其他都是記憶或想像。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 77,
+    "theme": "溫柔休息",
+    "title": "累了就停",
+    "content": "休息是必需的，不是奢侈品。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 78,
+    "theme": "內在對話",
+    "title": "內在的聲音很重要",
+    "content": "內在的聲音比外在的評價更重要。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 79,
+    "theme": "放手流動",
+    "title": "放下是釋放",
+    "content": "放下不是失去，而是釋放。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 80,
+    "theme": "感恩日常",
+    "title": "感恩當下",
+    "content": "感恩當下擁有的，而不是沒有的。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 81,
+    "theme": "微行動",
+    "title": "你比想像中更有力量",
+    "content": "行動創造可能，等待只會讓機會流失。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 82,
+    "theme": "情緒流動",
+    "title": "感受需要被看見",
+    "content": "感受需要被看見，不是被壓抑或忽略。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 83,
+    "theme": "人際連結",
+    "title": "關係中我們成長",
+    "content": "在關係中我們成長，學會更認識自己。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 84,
+    "theme": "身體智慧",
+    "title": "身體是內在的地圖",
+    "content": "身體是內在的地圖，標示著你的狀態。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 85,
+    "theme": "自我接納",
+    "title": "擁抱真實的自己",
+    "content": "擁抱真實的自己，比追求完美更重要。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 86,
+    "theme": "當下覺察",
+    "title": "回到此刻",
+    "content": "回到此刻，就是回到生命正在發生的地方。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 87,
+    "theme": "溫柔休息",
+    "title": "休息是必需",
+    "content": "停下來才能看見，看見真正重要的。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 88,
+    "theme": "內在對話",
+    "title": "善待自己的話語",
+    "content": "善待自己的話語，會改變你的人生。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 89,
+    "theme": "放手流動",
+    "title": "不控制也可以",
+    "content": "不控制也可以，生命會自己找到路。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 90,
+    "theme": "感恩日常",
+    "title": "日常就是禮物",
+    "content": "日常就是禮物，每一天都是。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 91,
+    "theme": "微行動",
+    "title": "行動創造可能",
+    "content": "相信那些微小的改變，它們正在累積成巨大的力量。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 92,
+    "theme": "情緒流動",
+    "title": "情緒是內在的語言",
+    "content": "情緒是內在的語言，學會傾聽它。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 93,
+    "theme": "人際連結",
+    "title": "脆弱是一種力量",
+    "content": "脆弱不是軟弱，而是連結最需要的力量。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 94,
+    "theme": "身體智慧",
+    "title": "緊張藏在肌肉裡",
+    "content": "緊張藏在肌肉裡，等待被釋放。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 95,
+    "theme": "自我接納",
+    "title": "接納是力量",
+    "content": "接納是力量，它讓你不再內耗。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 96,
+    "theme": "當下覺察",
+    "title": "現在就是一切",
+    "content": "現在就是一切，不在過去不在未來。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 97,
+    "theme": "溫柔休息",
+    "title": "停下來才能看見",
+    "content": "你需要休息，身體和心靈都需要。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 98,
+    "theme": "內在對話",
+    "title": "你值得鼓勵",
+    "content": "你值得被鼓勵，特別是從自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 99,
+    "theme": "放手流動",
+    "title": "鬆手是選擇",
+    "content": "鬆手是選擇，選擇信任生命。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 100,
+    "theme": "感恩日常",
+    "title": "美好在尋常裡",
+    "content": "美好在尋常裡，在你習以為常的地方。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 101,
+    "theme": "微行動",
+    "title": "相信微小的改變",
+    "content": "專注於眼前這一步，路會在你行走時出現。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 102,
+    "theme": "情緒流動",
+    "title": "允許情緒存在",
+    "content": "允許情緒存在，就是允許自己完整。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 103,
+    "theme": "人際連結",
+    "title": "連結需要真誠",
+    "content": "連結需要真誠，沒有捷徑可以取代。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 104,
+    "theme": "身體智慧",
+    "title": "身體知道答案",
+    "content": "身體知道答案，比頭腦更早知道。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 105,
+    "theme": "自我接納",
+    "title": "你本來就很好",
+    "content": "你本來就很好，不需要證明什麼。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 106,
+    "theme": "當下覺察",
+    "title": "覺察帶來自由",
+    "content": "覺察帶來自由，自由於時間的束縛。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 107,
+    "theme": "溫柔休息",
+    "title": "你需要休息",
+    "content": "疲憊是訊號，告訴你該停下了。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 108,
+    "theme": "內在對話",
+    "title": "改變對自己的話",
+    "content": "改變對自己說的話，從批判到理解。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 109,
+    "theme": "放手流動",
+    "title": "流動帶來新的",
+    "content": "流動帶來新的可能，執著只有舊的模式。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 110,
+    "theme": "感恩日常",
+    "title": "看見簡單的美",
+    "content": "看見簡單的美，它最真實。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 111,
+    "theme": "微行動",
+    "title": "專注眼前這一步",
+    "content": "讓想法落地，它才能成為真實。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 112,
+    "theme": "情緒流動",
+    "title": "感受是通往內在的門",
+    "content": "感受是通往內在的門，推開它，你會更了解自己。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 113,
+    "theme": "人際連結",
+    "title": "理解需要傾聽",
+    "content": "理解需要傾聽，不只是聽見，而是聽懂。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 114,
+    "theme": "身體智慧",
+    "title": "疼痛是一個訊息",
+    "content": "疼痛是一個訊息，不只是要消除的症狀。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 115,
+    "theme": "自我接納",
+    "title": "不完美很美",
+    "content": "不完美很美，因為它是真實的。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 116,
+    "theme": "當下覺察",
+    "title": "當下是真實",
+    "content": "當下是真實的，過去和未來都是念頭。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 117,
+    "theme": "溫柔休息",
+    "title": "疲憊是訊號",
+    "content": "休息是力量，恢復力量的方式。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 118,
+    "theme": "內在對話",
+    "title": "你可以對自己好",
+    "content": "你可以對自己好，沒有人會阻止你。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 119,
+    "theme": "放手流動",
+    "title": "放手是力量",
+    "content": "放手是力量，不再與生命對抗的力量。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 120,
+    "theme": "感恩日常",
+    "title": "感恩所擁有",
+    "content": "感恩此刻所擁有的一切。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 121,
+    "theme": "微行動",
+    "title": "讓想法落地",
+    "content": "完美會阻止開始，而開始會帶來完美。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 122,
+    "theme": "情緒流動",
+    "title": "情緒會過去的",
+    "content": "情緒會過去的，就像暴風雨後總會天晴。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 123,
+    "theme": "人際連結",
+    "title": "關係是一面鏡子",
+    "content": "關係是一面鏡子，映照出真實的你。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 124,
+    "theme": "身體智慧",
+    "title": "身體會記得",
+    "content": "身體會記得，那些你試圖忘記的。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 125,
+    "theme": "自我接納",
+    "title": "接納帶來平靜",
+    "content": "接納帶來平靜，平靜帶來力量。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 126,
+    "theme": "當下覺察",
+    "title": "此刻即永恆",
+    "content": "此刻即永恆，當你完全在這裡。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 127,
+    "theme": "溫柔休息",
+    "title": "休息是力量",
+    "content": "停下是選擇，選擇善待自己。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 128,
+    "theme": "內在對話",
+    "title": "溫柔的內在聲音",
+    "content": "溫柔的內在聲音，是最有力量的。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 129,
+    "theme": "放手流動",
+    "title": "控制不了就接受",
+    "content": "控制不了的就接受，接受才是平靜。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 130,
+    "theme": "感恩日常",
+    "title": "平凡很珍貴",
+    "content": "平凡很珍貴，因為它真實存在。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 131,
+    "theme": "微行動",
+    "title": "行動勝過完美",
+    "content": "為自己做些什麼，比為自己想些什麼更重要。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 132,
+    "theme": "情緒流動",
+    "title": "感受沒有對錯",
+    "content": "感受沒有對錯，它們只是存在著。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 133,
+    "theme": "人際連結",
+    "title": "真實是最好的禮物",
+    "content": "真實是你能給的最好禮物，對自己對他人。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 134,
+    "theme": "身體智慧",
+    "title": "呼吸連結身心",
+    "content": "呼吸連結著身體和心靈，它是橋樑。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 135,
+    "theme": "自我接納",
+    "title": "你值得被接納",
+    "content": "你值得被接納，從你自己開始。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 136,
+    "theme": "當下覺察",
+    "title": "活在這裡",
+    "content": "活在這裡，活在現在，其他都不重要。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 137,
+    "theme": "溫柔休息",
+    "title": "停下是選擇",
+    "content": "你可以休息，現在就可以。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 138,
+    "theme": "內在對話",
+    "title": "內在對話是力量",
+    "content": "內在對話塑造著你是誰。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 139,
+    "theme": "放手流動",
+    "title": "鬆開是自由",
+    "content": "鬆開就自由了，從自己的牢籠裡。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 140,
+    "theme": "感恩日常",
+    "title": "美好從不缺席",
+    "content": "美好從不缺席，只是你沒注意。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 141,
+    "theme": "微行動",
+    "title": "為自己做些什麼",
+    "content": "不需要很厲害才開始，開始了就會很厲害。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 142,
+    "theme": "情緒流動",
+    "title": "允許情緒說話",
+    "content": "允許情緒說話，它會告訴你需要什麼。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 143,
+    "theme": "人際連結",
+    "title": "連結從聆聽開始",
+    "content": "連結從願意聆聽開始，而不是急著說話。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 144,
+    "theme": "身體智慧",
+    "title": "身體需要關注",
+    "content": "身體需要你的關注，不只是使用它。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 145,
+    "theme": "自我接納",
+    "title": "完整不是完美",
+    "content": "完整不是完美，而是接納所有的自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 146,
+    "theme": "當下覺察",
+    "title": "覺察是智慧",
+    "content": "覺察是智慧，看見當下需要智慧。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 147,
+    "theme": "溫柔休息",
+    "title": "你可以休息",
+    "content": "累是真實的感受，不需要否認它。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 148,
+    "theme": "內在對話",
+    "title": "善待從自己開始",
+    "content": "善待從對自己開始，然後擴及他人。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 149,
+    "theme": "放手流動",
+    "title": "流動是自然",
+    "content": "流動是自然，抗拒是人為。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 150,
+    "theme": "感恩日常",
+    "title": "看見平凡的光",
+    "content": "看見平凡的光，它一直在發亮。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 151,
+    "theme": "微行動",
+    "title": "小小的開始就夠了",
+    "content": "行動是你對自己的承諾，也是對未來的投資。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 152,
+    "theme": "情緒流動",
+    "title": "情緒是暫時的訪客",
+    "content": "情緒是暫時的訪客，不是永久的住客。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 153,
+    "theme": "人際連結",
+    "title": "理解帶來和解",
+    "content": "理解帶來和解，和解帶來平靜。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 154,
+    "theme": "身體智慧",
+    "title": "緊繃是未釋放的情緒",
+    "content": "緊繃是未釋放的情緒，儲存在身體裡。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 155,
+    "theme": "自我接納",
+    "title": "接納是療癒",
+    "content": "接納是最深的療癒，療癒分裂的自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 156,
+    "theme": "當下覺察",
+    "title": "當下是答案",
+    "content": "當下是答案，你尋找的都在此刻。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 157,
+    "theme": "溫柔休息",
+    "title": "累是真實的",
+    "content": "休息是療癒，讓身心恢復的時間。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 158,
+    "theme": "內在對話",
+    "title": "你值得被理解",
+    "content": "你值得被理解，被自己理解。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 159,
+    "theme": "放手流動",
+    "title": "放下是平靜",
+    "content": "放下就平靜了，心不再拉扯。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 160,
+    "theme": "感恩日常",
+    "title": "感恩此時",
+    "content": "感恩此時此刻，就是這樣。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 161,
+    "theme": "微行動",
+    "title": "行動是對自己的承諾",
+    "content": "改變需要行動來支撐，夢想需要努力來實現。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 162,
+    "theme": "情緒流動",
+    "title": "感受是內在的指引",
+    "content": "感受是內在的指引，帶你找到真正的需求。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 163,
+    "theme": "人際連結",
+    "title": "關係中找到自己",
+    "content": "在關係中你會找到自己，也會失去自己。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 164,
+    "theme": "身體智慧",
+    "title": "身體是智慧的載體",
+    "content": "身體是智慧的載體，承載著生命的經驗。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 165,
+    "theme": "自我接納",
+    "title": "你就是你",
+    "content": "你就是你，不需要成為別人。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 166,
+    "theme": "當下覺察",
+    "title": "回到身體就是回到當下",
+    "content": "回到身體的感受，就是回到當下。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 167,
+    "theme": "溫柔休息",
+    "title": "休息是療癒",
+    "content": "停下來沒關係，不會有事的。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 168,
+    "theme": "內在對話",
+    "title": "改變內在批判",
+    "content": "改變內在的批判者，成為支持者。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 169,
+    "theme": "放手流動",
+    "title": "不抓住也行",
+    "content": "不抓住也行，世界不會因此崩塌。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 170,
+    "theme": "感恩日常",
+    "title": "日常藏著美好",
+    "content": "日常藏著美好，在每個瞬間。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 171,
+    "theme": "微行動",
+    "title": "改變需要行動支撐",
+    "content": "每一步看似微小，但都在讓你前進。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 172,
+    "theme": "情緒流動",
+    "title": "情緒需要空間",
+    "content": "情緒需要空間，給它一點時間和理解。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 173,
+    "theme": "人際連結",
+    "title": "脆弱需要安全感",
+    "content": "脆弱需要安全感，才能被展現。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 174,
+    "theme": "身體智慧",
+    "title": "疲憊需要被看見",
+    "content": "疲憊需要被看見，不是被忽略或否認。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 175,
+    "theme": "自我接納",
+    "title": "擁抱不完美",
+    "content": "擁抱不完美，它讓你成為獨特的自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 176,
+    "theme": "當下覺察",
+    "title": "現在是重點",
+    "content": "現在是重點，不是過去也不是未來。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 177,
+    "theme": "溫柔休息",
+    "title": "停下來沒關係",
+    "content": "你應該休息，這是你的權利。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 178,
+    "theme": "內在對話",
+    "title": "你可以支持自己",
+    "content": "你可以成為自己最好的支持。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 179,
+    "theme": "放手流動",
+    "title": "鬆手是智慧",
+    "content": "鬆手是智慧，知道什麼不屬於你。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 180,
+    "theme": "感恩日常",
+    "title": "美好在每一天",
+    "content": "美好在每一天，不需要等待特別的日子。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 181,
+    "theme": "微行動",
+    "title": "每一步都在前進",
+    "content": "用行動回應內心的渴望，而不是讓它沉睡。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 182,
+    "theme": "情緒流動",
+    "title": "允許自己脆弱",
+    "content": "允許自己脆弱，那是最真實的力量。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 183,
+    "theme": "人際連結",
+    "title": "連結是療癒",
+    "content": "連結本身就是療癒，不需要修復只需要在一起。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 184,
+    "theme": "身體智慧",
+    "title": "身體在對話",
+    "content": "身體一直在對話，只是你沒有在聽。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 185,
+    "theme": "自我接納",
+    "title": "接納是智慧",
+    "content": "接納是智慧，知道什麼該改變什麼該接受。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 186,
+    "theme": "當下覺察",
+    "title": "覺察是選擇",
+    "content": "覺察是選擇，選擇在當下而不是念頭裡。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 187,
+    "theme": "溫柔休息",
+    "title": "你應該休息",
+    "content": "疲憊要被聆聽，它在說重要的話。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 188,
+    "theme": "內在對話",
+    "title": "溫柔取代嚴厲",
+    "content": "用溫柔取代嚴厲，對自己說話。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 189,
+    "theme": "放手流動",
+    "title": "流動帶來可能",
+    "content": "流動帶來可能，固執帶來僵化。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 190,
+    "theme": "感恩日常",
+    "title": "看見小事的美",
+    "content": "看見小事的美，它們累積成幸福。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 191,
+    "theme": "微行動",
+    "title": "用行動回應內心",
+    "content": "開始比等待更有價值，行動比計畫更有力量。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 192,
+    "theme": "情緒流動",
+    "title": "情緒是療癒的開始",
+    "content": "情緒是療癒的開始，接納它就是接納自己。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 193,
+    "theme": "人際連結",
+    "title": "理解是成長",
+    "content": "理解是成長，它讓你看見更多可能。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 194,
+    "theme": "身體智慧",
+    "title": "放鬆是回到身體",
+    "content": "放鬆就是回到身體，感受它的存在。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 195,
+    "theme": "自我接納",
+    "title": "你已經很努力",
+    "content": "你已經很努力了，真的很努力了。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 196,
+    "theme": "當下覺察",
+    "title": "當下是平靜",
+    "content": "當下是平靜，因為這裡沒有問題。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 197,
+    "theme": "溫柔休息",
+    "title": "疲憊要被聽見",
+    "content": "休息是自我關愛，最基本的關愛。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 198,
+    "theme": "內在對話",
+    "title": "內在聲音是選擇",
+    "content": "內在的聲音是選擇，不是命運。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 199,
+    "theme": "放手流動",
+    "title": "放手是療癒",
+    "content": "放手是療癒，療癒執著的傷。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 200,
+    "theme": "感恩日常",
+    "title": "感恩現在",
+    "content": "感恩現在，不要等到失去才珍惜。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 201,
+    "theme": "微行動",
+    "title": "開始比等待更重要",
+    "content": "行動會帶來新的視野和可能性。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 202,
+    "theme": "情緒流動",
+    "title": "感受是內在的智慧",
+    "content": "感受是內在的智慧，它比頭腦更懂你。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 203,
+    "theme": "人際連結",
+    "title": "關係需要空間",
+    "content": "關係需要空間，太近會窒息太遠會疏離。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 204,
+    "theme": "身體智慧",
+    "title": "身體儲存記憶",
+    "content": "身體儲存著記憶，好的和壞的都在。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 205,
+    "theme": "自我接納",
+    "title": "完整需要接納",
+    "content": "完整需要接納，接納需要勇氣。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 206,
+    "theme": "當下覺察",
+    "title": "此刻就夠了",
+    "content": "此刻就夠了，不需要更多。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 207,
+    "theme": "溫柔休息",
+    "title": "休息是自我關愛",
+    "content": "停下不是放棄，而是為了繼續。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 208,
+    "theme": "內在對話",
+    "title": "善待自己的方式",
+    "content": "善待自己是最基本的自我關愛。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 209,
+    "theme": "放手流動",
+    "title": "控制是緊繃",
+    "content": "控制會讓你緊繃，放手會讓你放鬆。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 210,
+    "theme": "感恩日常",
+    "title": "平凡是禮物",
+    "content": "平凡是禮物，不要忽視它。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 211,
+    "theme": "微行動",
+    "title": "行動帶來新的視野",
+    "content": "相信累積的力量，時間會證明一切。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 212,
+    "theme": "情緒流動",
+    "title": "情緒會帶你回家",
+    "content": "情緒會帶你回家，回到真實的自己。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 213,
+    "theme": "人際連結",
+    "title": "真誠創造信任",
+    "content": "真誠創造信任，信任創造深度。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 214,
+    "theme": "身體智慧",
+    "title": "緊張是壓力的痕跡",
+    "content": "緊張是壓力留下的痕跡，身體記得。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 215,
+    "theme": "自我接納",
+    "title": "接納是勇氣",
+    "content": "接納是勇氣，接受自己需要巨大的勇氣。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 216,
+    "theme": "當下覺察",
+    "title": "活在呼吸中",
+    "content": "活在呼吸中，每一次呼吸都是當下。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 217,
+    "theme": "溫柔休息",
+    "title": "停下不是放棄",
+    "content": "你必須休息，這不是選擇是必須。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 218,
+    "theme": "內在對話",
+    "title": "你值得被支持",
+    "content": "你值得被支持，自己給自己支持。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 219,
+    "theme": "放手流動",
+    "title": "鬆開是輕鬆",
+    "content": "鬆開就輕鬆了，不再背負不該背的。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 220,
+    "theme": "感恩日常",
+    "title": "美好一直存在",
+    "content": "美好一直存在，問題是你看不看得見。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 221,
+    "theme": "微行動",
+    "title": "相信累積的力量",
+    "content": "為理想採取行動，而不是只是想像它。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 222,
+    "theme": "情緒流動",
+    "title": "允許情緒流過",
+    "content": "允許情緒流過，不抓住也不推開。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 223,
+    "theme": "人際連結",
+    "title": "連結需要時間",
+    "content": "連結需要時間，不是一次對話就能達成。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 224,
+    "theme": "身體智慧",
+    "title": "身體需要照顧",
+    "content": "身體需要照顧，不只是要求它表現。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 225,
+    "theme": "自我接納",
+    "title": "你值得溫柔",
+    "content": "你值得被溫柔對待，從你自己開始。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 226,
+    "theme": "當下覺察",
+    "title": "覺察帶來清明",
+    "content": "覺察帶來清明，看清楚正在發生的。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 227,
+    "theme": "溫柔休息",
+    "title": "你必須休息",
+    "content": "累了就承認，承認不是失敗。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 228,
+    "theme": "內在對話",
+    "title": "改變對待自己",
+    "content": "改變對待自己的方式，一切會不同。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 229,
+    "theme": "放手流動",
+    "title": "流動是生命的本質",
+    "content": "流動是生命的本質，不是威脅。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 230,
+    "theme": "感恩日常",
+    "title": "看見日常的光",
+    "content": "看見日常的光，它溫暖而柔和。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 231,
+    "theme": "微行動",
+    "title": "為理想採取行動",
+    "content": "行動讓夢想變得具體可觸。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 232,
+    "theme": "情緒流動",
+    "title": "感受是真實的自己",
+    "content": "感受是真實的你，不是你想成為的樣子。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 233,
+    "theme": "人際連結",
+    "title": "理解是橋樑",
+    "content": "理解是橋樑，連接兩個不同的世界。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 234,
+    "theme": "身體智慧",
+    "title": "疼痛想被理解",
+    "content": "疼痛想被理解，不只是被消除。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 235,
+    "theme": "自我接納",
+    "title": "不完美沒關係",
+    "content": "不完美沒關係，每個人都不完美。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 236,
+    "theme": "當下覺察",
+    "title": "當下是力量",
+    "content": "當下是力量，所有的力量都在此刻。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 237,
+    "theme": "溫柔休息",
+    "title": "累了就承認",
+    "content": "休息是智慧，智慧的選擇。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 238,
+    "theme": "內在對話",
+    "title": "你可以慈悲對己",
+    "content": "你可以用慈悲對待自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 239,
+    "theme": "放手流動",
+    "title": "放下是解脫",
+    "content": "放下就解脫了，從自己的執著裡。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 240,
+    "theme": "感恩日常",
+    "title": "感恩當下擁有",
+    "content": "感恩當下所擁有的，就夠了。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 241,
+    "theme": "微行動",
+    "title": "行動讓夢想具體",
+    "content": "一次只專注做一件事，就夠了。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 242,
+    "theme": "情緒流動",
+    "title": "情緒是成長的契機",
+    "content": "情緒是成長的契機，它在邀請你看見更多。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 243,
+    "theme": "人際連結",
+    "title": "關係中學習愛",
+    "content": "在關係中學習愛，愛自己也愛他人。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 244,
+    "theme": "身體智慧",
+    "title": "身體是內在的聲音",
+    "content": "身體是內在的聲音，用感覺在訴說。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 245,
+    "theme": "自我接納",
+    "title": "接納帶來自由",
+    "content": "接納帶來自由，自由帶來可能。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 246,
+    "theme": "當下覺察",
+    "title": "回到感覺",
+    "content": "回到感覺，感覺永遠在當下。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 247,
+    "theme": "溫柔休息",
+    "title": "休息是智慧",
+    "content": "停下是清醒，清醒地看見自己的需要。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 248,
+    "theme": "內在對話",
+    "title": "溫柔對待內在",
+    "content": "溫柔地對待內在的聲音。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 249,
+    "theme": "放手流動",
+    "title": "不掌控也沒事",
+    "content": "不掌控也沒事，該來的會來該走的會走。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 250,
+    "theme": "感恩日常",
+    "title": "日常很美",
+    "content": "日常很美，當你用心看。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 251,
+    "theme": "微行動",
+    "title": "一次只做一件事",
+    "content": "相信過程，每個階段都有它的意義。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 252,
+    "theme": "情緒流動",
+    "title": "感受需要被聆聽",
+    "content": "感受需要被聆聽，就像孩子需要被看見。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 253,
+    "theme": "人際連結",
+    "title": "脆弱是連結",
+    "content": "脆弱就是連結，沒有脆弱就沒有真實。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 254,
+    "theme": "身體智慧",
+    "title": "疲憊是身體的請求",
+    "content": "疲憊是身體的請求，請求你停下來。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 255,
+    "theme": "自我接納",
+    "title": "你夠好了",
+    "content": "你夠好了，真的夠好了。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 256,
+    "theme": "當下覺察",
+    "title": "現在是存在",
+    "content": "現在是存在，不在別處。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 257,
+    "theme": "溫柔休息",
+    "title": "停下是清醒",
+    "content": "你允許自己休息，給自己這個允許。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 258,
+    "theme": "內在對話",
+    "title": "內在對話需要覺察",
+    "content": "內在對話需要覺察和改變。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 259,
+    "theme": "放手流動",
+    "title": "鬆手是信任",
+    "content": "鬆手是信任，信任生命的流動。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 260,
+    "theme": "感恩日常",
+    "title": "美好在細微處",
+    "content": "美好在細微處，在你不注意的地方。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 261,
+    "theme": "微行動",
+    "title": "相信過程的力量",
+    "content": "行動創造動能，動能帶來改變。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 262,
+    "theme": "情緒流動",
+    "title": "允許情緒呼吸",
+    "content": "允許情緒呼吸，它才能釋放和轉化。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 263,
+    "theme": "人際連結",
+    "title": "真實創造深度",
+    "content": "真實創造深度，深度創造意義。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 264,
+    "theme": "身體智慧",
+    "title": "身體會帶你回家",
+    "content": "身體會帶你回家，回到當下此刻。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 265,
+    "theme": "自我接納",
+    "title": "完整包含一切",
+    "content": "完整包含著一切，好的壞的都是你。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 266,
+    "theme": "當下覺察",
+    "title": "覺察是療癒",
+    "content": "覺察是療癒，在當下療癒才能發生。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 267,
+    "theme": "溫柔休息",
+    "title": "你允許休息",
+    "content": "疲憊是提醒，提醒你的限制在哪裡。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 268,
+    "theme": "內在對話",
+    "title": "善待自己的心",
+    "content": "善待自己的心，它很珍貴。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 269,
+    "theme": "放手流動",
+    "title": "流動帶來改變",
+    "content": "流動帶來改變，執著帶來停滯。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 270,
+    "theme": "感恩日常",
+    "title": "看見平凡之美",
+    "content": "看見平凡之美，是最深的智慧。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 271,
+    "theme": "微行動",
+    "title": "行動創造動能",
+    "content": "讓決定帶著你前行，而不是讓猶豫困住你。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 272,
+    "theme": "情緒流動",
+    "title": "情緒是內在的老師",
+    "content": "情緒是內在的老師，教你更認識自己。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 273,
+    "theme": "人際連結",
+    "title": "理解需要耐心",
+    "content": "理解需要耐心，不是立刻就能發生。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 274,
+    "theme": "身體智慧",
+    "title": "緊繃需要釋放",
+    "content": "緊繃需要被釋放，不是被忍耐。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 275,
+    "theme": "自我接納",
+    "title": "接納是關愛",
+    "content": "接納是最深的關愛，對自己的關愛。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 276,
+    "theme": "當下覺察",
+    "title": "當下是完整",
+    "content": "當下是完整，不需要增加什麼。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 277,
+    "theme": "溫柔休息",
+    "title": "疲憊是提醒",
+    "content": "休息是權利，每個人都有的權利。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 278,
+    "theme": "內在對話",
+    "title": "你值得被愛",
+    "content": "你值得被愛，從自己愛自己開始。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 279,
+    "theme": "放手流動",
+    "title": "放手是成長",
+    "content": "放手是成長，成長超越控制。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 280,
+    "theme": "感恩日常",
+    "title": "感恩此刻所有",
+    "content": "感恩此刻所有，包括那些理所當然的。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 281,
+    "theme": "微行動",
+    "title": "讓決定帶你前行",
+    "content": "行動是最好的答案，它會告訴你下一步。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 282,
+    "theme": "情緒流動",
+    "title": "感受是珍貴的禮物",
+    "content": "感受是珍貴的禮物，即使它不總是舒服。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 283,
+    "theme": "人際連結",
+    "title": "關係是共同成長",
+    "content": "關係是共同成長，不是互相改變。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 284,
+    "theme": "身體智慧",
+    "title": "身體知道需要什麼",
+    "content": "身體知道它需要什麼，比你的計畫更清楚。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 285,
+    "theme": "自我接納",
+    "title": "你值得被理解",
+    "content": "你值得被理解，包括你不理解的部分。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 286,
+    "theme": "當下覺察",
+    "title": "此刻是真的",
+    "content": "此刻是真的，其他都是故事。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 287,
+    "theme": "溫柔休息",
+    "title": "休息是權利",
+    "content": "停下來吧，世界不會因此停轉。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 288,
+    "theme": "內在對話",
+    "title": "改變內在語言",
+    "content": "改變內在的語言，改變內在的世界。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 289,
+    "theme": "放手流動",
+    "title": "控制不了的事",
+    "content": "控制不了的事，不如接受它。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 290,
+    "theme": "感恩日常",
+    "title": "平凡即美好",
+    "content": "平凡即美好，不需要非凡。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 291,
+    "theme": "微行動",
+    "title": "行動是最好的答案",
+    "content": "為自己邁出一步，世界會為你讓路。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 292,
+    "theme": "情緒流動",
+    "title": "情緒會轉化",
+    "content": "情緒會轉化，當你不再抗拒它。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 293,
+    "theme": "人際連結",
+    "title": "連結需要勇敢",
+    "content": "連結需要勇敢，去展現真實的自己。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 294,
+    "theme": "身體智慧",
+    "title": "呼吸是身體的語言",
+    "content": "呼吸是身體的語言，最直接的語言。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 295,
+    "theme": "自我接納",
+    "title": "擁抱所有面向",
+    "content": "擁抱所有面向，才是完整的自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 296,
+    "theme": "當下覺察",
+    "title": "活在感受裡",
+    "content": "活在感受裡，感受只在當下。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 297,
+    "theme": "溫柔休息",
+    "title": "停下來吧",
+    "content": "你給自己休息的時間，這很重要。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 298,
+    "theme": "內在對話",
+    "title": "你可以寬容自己",
+    "content": "你可以寬容地對待自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 299,
+    "theme": "放手流動",
+    "title": "鬆開是接納",
+    "content": "鬆開是接納，接納生命的不確定。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 300,
+    "theme": "感恩日常",
+    "title": "美好從未離開",
+    "content": "美好從未離開，只是你忘了看。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 301,
+    "theme": "微行動",
+    "title": "為自己邁出一步",
+    "content": "改變不會自己發生，它在行動中誕生。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 302,
+    "theme": "情緒流動",
+    "title": "允許自己真實",
+    "content": "允許自己真實，包括那些不完美的感受。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 303,
+    "theme": "人際連結",
+    "title": "理解是選擇",
+    "content": "理解是選擇，選擇站在對方的角度看。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 304,
+    "theme": "身體智慧",
+    "title": "身體需要空間",
+    "content": "身體需要空間，去感受去呼吸去存在。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 305,
+    "theme": "自我接納",
+    "title": "接納是成長",
+    "content": "接納是成長，接受現在才能改變未來。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 306,
+    "theme": "當下覺察",
+    "title": "覺察帶來覺醒",
+    "content": "覺察帶來覺醒，醒來於當下。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 307,
+    "theme": "溫柔休息",
+    "title": "你給自己休息",
+    "content": "累是正常的，是人性的一部分。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 308,
+    "theme": "內在對話",
+    "title": "溫柔是力量",
+    "content": "溫柔是力量，不是軟弱。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 309,
+    "theme": "放手流動",
+    "title": "流動是智慧",
+    "content": "流動是智慧，隨順而非抗拒。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 310,
+    "theme": "感恩日常",
+    "title": "看見日常的好",
+    "content": "看見日常的好，感恩會自然發生。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 311,
+    "theme": "微行動",
+    "title": "改變在行動中發生",
+    "content": "相信開始的力量，它比你想的更強大。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 312,
+    "theme": "情緒流動",
+    "title": "感受是內在的羅盤",
+    "content": "感受是內在的羅盤，指引你的方向。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 313,
+    "theme": "人際連結",
+    "title": "關係需要真實",
+    "content": "關係需要真實，虛假遲早會崩解。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 314,
+    "theme": "身體智慧",
+    "title": "疼痛是提醒",
+    "content": "疼痛是提醒，提醒你注意某些被忽略的。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 315,
+    "theme": "自我接納",
+    "title": "你本身就完整",
+    "content": "你本身就完整，不需要外求。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 316,
+    "theme": "當下覺察",
+    "title": "當下是生命",
+    "content": "當下是生命，生命只在此刻。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 317,
+    "theme": "溫柔休息",
+    "title": "累是正常的",
+    "content": "休息是恢復，恢復能量和清明。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 318,
+    "theme": "內在對話",
+    "title": "內在聲音能療癒",
+    "content": "內在的聲音能療癒，也能傷害。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 319,
+    "theme": "放手流動",
+    "title": "放下是寧靜",
+    "content": "放下就寧靜了，心不再掙扎。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 320,
+    "theme": "感恩日常",
+    "title": "感恩所有",
+    "content": "感恩所有的一切，好的和平凡的。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 321,
+    "theme": "微行動",
+    "title": "相信開始的力量",
+    "content": "行動帶來信心，信心帶來更多行動。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 322,
+    "theme": "情緒流動",
+    "title": "情緒需要被接納",
+    "content": "情緒需要被接納，不是被修正或改變。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 323,
+    "theme": "人際連結",
+    "title": "脆弱帶來親密",
+    "content": "脆弱帶來親密，親密是最深的連結。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 324,
+    "theme": "身體智慧",
+    "title": "身體是真實的",
+    "content": "身體是真實的，它不會說謊。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 325,
+    "theme": "自我接納",
+    "title": "不完美是真實",
+    "content": "不完美是真實，真實比完美更珍貴。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 326,
+    "theme": "當下覺察",
+    "title": "回到當下就是回到自己",
+    "content": "回到當下就是回到自己，真實的自己。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 327,
+    "theme": "溫柔休息",
+    "title": "休息是恢復",
+    "content": "停下是尊重，尊重自己的限制。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 328,
+    "theme": "內在對話",
+    "title": "善待自己很重要",
+    "content": "善待自己很重要，比你想的更重要。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 329,
+    "theme": "放手流動",
+    "title": "不抓緊也好",
+    "content": "不抓緊也好，抓緊只會更累。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 330,
+    "theme": "感恩日常",
+    "title": "日常是奇蹟",
+    "content": "日常是奇蹟，每個平凡的瞬間都是。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 331,
+    "theme": "微行動",
+    "title": "行動帶來信心",
+    "content": "讓行動成為習慣，習慣會改變人生。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 332,
+    "theme": "情緒流動",
+    "title": "感受是內在的聲音",
+    "content": "感受是內在的聲音，靜下來才聽得見。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 333,
+    "theme": "人際連結",
+    "title": "連結是相互的",
+    "content": "連結是相互的，你給出也會收到。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 334,
+    "theme": "身體智慧",
+    "title": "疲憊是智慧",
+    "content": "疲憊也是一種智慧，告訴你界限在哪。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 335,
+    "theme": "自我接納",
+    "title": "接納帶來力量",
+    "content": "接納帶來力量，不再與自己戰鬥的力量。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 336,
+    "theme": "當下覺察",
+    "title": "現在是可能",
+    "content": "現在是可能，所有可能都從此刻開始。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 337,
+    "theme": "溫柔休息",
+    "title": "停下是尊重",
+    "content": "你值得停下來，好好休息。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 338,
+    "theme": "內在對話",
+    "title": "你值得被珍惜",
+    "content": "你值得被珍惜，珍惜你自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 339,
+    "theme": "放手流動",
+    "title": "鬆手是慈悲",
+    "content": "鬆手是慈悲，對自己的慈悲。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 340,
+    "theme": "感恩日常",
+    "title": "美好在平凡中",
+    "content": "美好在平凡中，在生活的每個角落。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 341,
+    "theme": "微行動",
+    "title": "讓行動成為習慣",
+    "content": "專注於此刻可以做的，而不是無法掌控的。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 342,
+    "theme": "情緒流動",
+    "title": "允許情緒表達",
+    "content": "允許情緒表達，它才能完成它的任務。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 343,
+    "theme": "人際連結",
+    "title": "理解需要同理",
+    "content": "理解需要同理心，走進對方的世界。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 344,
+    "theme": "身體智慧",
+    "title": "身體會告訴你",
+    "content": "身體會告訴你真相，如果你願意聽。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 345,
+    "theme": "自我接納",
+    "title": "你值得被看見",
+    "content": "你值得被看見，就是現在的樣子。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 346,
+    "theme": "當下覺察",
+    "title": "覺察是成長",
+    "content": "覺察是成長，在當下成長。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 347,
+    "theme": "溫柔休息",
+    "title": "你值得停下",
+    "content": "疲憊需要回應，不是壓抑或忽略。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 348,
+    "theme": "內在對話",
+    "title": "改變自我對話",
+    "content": "改變自我對話，從今天開始。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 349,
+    "theme": "放手流動",
+    "title": "流動是自然法則",
+    "content": "流動是自然法則，不是你能決定的。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 350,
+    "theme": "感恩日常",
+    "title": "看見尋常之美",
+    "content": "看見尋常之美，它最動人。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 351,
+    "theme": "微行動",
+    "title": "專注於可以做的",
+    "content": "行動創造新的可能，猶豫只會重複舊的模式。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 352,
+    "theme": "情緒流動",
+    "title": "情緒是療癒的鑰匙",
+    "content": "情緒是療癒的鑰匙，打開它通往內在的門。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 353,
+    "theme": "人際連結",
+    "title": "關係是禮物",
+    "content": "關係是珍貴的禮物，不是理所當然。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 354,
+    "theme": "身體智慧",
+    "title": "緊繃藏著情緒",
+    "content": "緊繃裡藏著情緒，釋放它才能自由。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 355,
+    "theme": "自我接納",
+    "title": "完整是接納",
+    "content": "完整就是接納，接納就是愛。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 356,
+    "theme": "當下覺察",
+    "title": "當下是寧靜",
+    "content": "當下是寧靜，這裡很安靜。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 357,
+    "theme": "溫柔休息",
+    "title": "疲憊需要回應",
+    "content": "休息是溫柔，對自己的溫柔。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 358,
+    "theme": "內在對話",
+    "title": "你可以對自己好一點",
+    "content": "你可以對自己好一點，真的可以。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 359,
+    "theme": "放手流動",
+    "title": "放手是清明",
+    "content": "放手是清明，看清楚什麼該放。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 360,
+    "theme": "感恩日常",
+    "title": "感恩這一切",
+    "content": "感恩這一切，就是這樣的存在。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 361,
+    "theme": "微行動",
+    "title": "行動創造新可能",
+    "content": "相信自己的節奏，不需要跟別人比較。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 362,
+    "theme": "情緒流動",
+    "title": "感受是內在的提醒",
+    "content": "感受是內在的提醒，告訴你什麼重要。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 363,
+    "theme": "人際連結",
+    "title": "真誠是基礎",
+    "content": "真誠是一切的基礎，沒有它什麼都建不起來。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 364,
+    "theme": "身體智慧",
+    "title": "身體是老師",
+    "content": "身體是你最好的老師，教你回到當下。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 365,
+    "theme": "自我接納",
+    "title": "接納是禮物",
+    "content": "接納是禮物，送給自己最好的禮物。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 366,
+    "theme": "當下覺察",
+    "title": "此刻最重要",
+    "content": "此刻最重要，沒有別的了。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 367,
+    "theme": "溫柔休息",
+    "title": "休息是溫柔",
+    "content": "停下是慈悲，對自己的慈悲。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 368,
+    "theme": "內在對話",
+    "title": "溫柔勝過嚴厲",
+    "content": "溫柔勝過嚴厲，在對自己的時候。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 369,
+    "theme": "放手流動",
+    "title": "控制讓你累",
+    "content": "控制讓你疲憊，放手讓你休息。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 370,
+    "theme": "感恩日常",
+    "title": "平凡最珍貴",
+    "content": "平凡最珍貴，因為它是生活的本質。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 371,
+    "theme": "微行動",
+    "title": "相信自己的節奏",
+    "content": "讓改變真實發生，而不只是停留在想法裡。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 372,
+    "theme": "情緒流動",
+    "title": "情緒會釋放",
+    "content": "情緒會釋放，當你給它空間。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 373,
+    "theme": "人際連結",
+    "title": "連結需要接納",
+    "content": "連結需要接納，接納彼此的不同。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 374,
+    "theme": "身體智慧",
+    "title": "呼吸帶來覺察",
+    "content": "呼吸帶來覺察，覺察帶來改變。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 375,
+    "theme": "自我接納",
+    "title": "你已經很好",
+    "content": "你已經很好，不需要再努力證明。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 376,
+    "theme": "當下覺察",
+    "title": "活在此時",
+    "content": "活在此時，不在彼時。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 377,
+    "theme": "溫柔休息",
+    "title": "停下是慈悲",
+    "content": "你需要停下來，聆聽身體的聲音。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 378,
+    "theme": "內在對話",
+    "title": "內在對話塑造你",
+    "content": "內在對話塑造了你看待自己的方式。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 379,
+    "theme": "放手流動",
+    "title": "鬆開讓你輕",
+    "content": "鬆開讓你輕盈，抓緊讓你沉重。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 380,
+    "theme": "感恩日常",
+    "title": "美好在此時",
+    "content": "美好在此時，不在別處。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 381,
+    "theme": "微行動",
+    "title": "讓改變真實發生",
+    "content": "行動是溫柔的力量，它不需要喧囂。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 382,
+    "theme": "情緒流動",
+    "title": "允許情緒經過",
+    "content": "允許情緒經過，不評判不抗拒。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 383,
+    "theme": "人際連結",
+    "title": "理解是力量",
+    "content": "理解是力量，它能化解許多誤會。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 384,
+    "theme": "身體智慧",
+    "title": "身體需要溫柔",
+    "content": "身體需要溫柔對待，不是強迫和要求。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 385,
+    "theme": "自我接納",
+    "title": "擁抱真實",
+    "content": "擁抱真實，它比偽裝更美。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 386,
+    "theme": "當下覺察",
+    "title": "覺察帶來改變",
+    "content": "覺察帶來改變，改變從當下開始。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 387,
+    "theme": "溫柔休息",
+    "title": "你需要停下",
+    "content": "累了沒關係，這不是你的錯。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 388,
+    "theme": "內在對話",
+    "title": "善待自己的需要",
+    "content": "善待自己是需要的，不是奢侈。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 389,
+    "theme": "放手流動",
+    "title": "流動帶來生機",
+    "content": "流動帶來生機，固執帶來死氣。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 390,
+    "theme": "感恩日常",
+    "title": "看見生活的美",
+    "content": "看見生活的美，它從不華麗但最真實。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 391,
+    "theme": "微行動",
+    "title": "行動是溫柔的力量",
+    "content": "開始就是成功，因為你已經戰勝了拖延。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 392,
+    "theme": "情緒流動",
+    "title": "感受是內在的地圖",
+    "content": "感受是內在的地圖，顯示你在哪裡。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 393,
+    "theme": "人際連結",
+    "title": "關係中被看見",
+    "content": "在關係中被看見，是最深的渴望。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 394,
+    "theme": "身體智慧",
+    "title": "疼痛需要被聽",
+    "content": "疼痛需要被聆聽，它在傳遞重要訊息。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 395,
+    "theme": "自我接納",
+    "title": "接納是慈悲",
+    "content": "接納是慈悲，對自己的慈悲。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 396,
+    "theme": "當下覺察",
+    "title": "當下是唯一真實",
+    "content": "當下是唯一真實，其他都是幻相。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 397,
+    "theme": "溫柔休息",
+    "title": "累了沒關係",
+    "content": "休息是重要的，比你想的更重要。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 398,
+    "theme": "內在對話",
+    "title": "你值得溫柔",
+    "content": "你值得溫柔，無條件的溫柔。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 399,
+    "theme": "放手流動",
+    "title": "放下是自在",
+    "content": "放下就自在了，不再被執著綁住。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 400,
+    "theme": "感恩日常",
+    "title": "感恩每一刻",
+    "content": "感恩每一刻，包括這一刻。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 401,
+    "theme": "微行動",
+    "title": "開始就是成功",
+    "content": "相信微小的進步，它們會累積成大的突破。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 402,
+    "theme": "情緒流動",
+    "title": "情緒是暫時的波浪",
+    "content": "情緒是暫時的波浪，不是整片海洋。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 403,
+    "theme": "人際連結",
+    "title": "脆弱是勇敢",
+    "content": "脆弱是勇敢的，因為它需要巨大的信任。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 404,
+    "theme": "身體智慧",
+    "title": "身體會反應",
+    "content": "身體會即時反應，比思考更快。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 405,
+    "theme": "自我接納",
+    "title": "你值得被珍惜",
+    "content": "你值得被珍惜，好好珍惜自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 406,
+    "theme": "當下覺察",
+    "title": "回到現在",
+    "content": "回到現在，現在就在這裡。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 407,
+    "theme": "溫柔休息",
+    "title": "休息是重要的",
+    "content": "停下是必要的，不是可有可無。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 408,
+    "theme": "內在對話",
+    "title": "改變內在語調",
+    "content": "改變內在的語調，從批判到鼓勵。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 409,
+    "theme": "放手流動",
+    "title": "不執著也對",
+    "content": "不執著也對，執著只是苦的根源。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 410,
+    "theme": "感恩日常",
+    "title": "日常是恩典",
+    "content": "日常是恩典，是生命給的禮物。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 411,
+    "theme": "微行動",
+    "title": "相信微小進步",
+    "content": "行動帶來方向，方向帶來目標。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 412,
+    "theme": "情緒流動",
+    "title": "感受需要被尊重",
+    "content": "感受需要被尊重，就像你尊重自己。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 413,
+    "theme": "人際連結",
+    "title": "連結帶來歸屬",
+    "content": "連結帶來歸屬感，讓你知道不是孤單的。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 414,
+    "theme": "身體智慧",
+    "title": "疲憊是訊號",
+    "content": "疲憊是身體的訊號，不要忽視它。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 415,
+    "theme": "自我接納",
+    "title": "不完美是人性",
+    "content": "不完美是人性，是每個人共有的。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 416,
+    "theme": "當下覺察",
+    "title": "此刻是存在",
+    "content": "此刻是存在，純粹的存在。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 417,
+    "theme": "溫柔休息",
+    "title": "停下是必要",
+    "content": "你可以停下，不需要徵求許可。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 418,
+    "theme": "內在對話",
+    "title": "你可以友善對己",
+    "content": "你可以友善地對待自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 419,
+    "theme": "放手流動",
+    "title": "鬆手是愛",
+    "content": "鬆手是愛，愛自己也愛生命。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 420,
+    "theme": "感恩日常",
+    "title": "美好在當下",
+    "content": "美好在當下，就在你呼吸的此刻。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 421,
+    "theme": "微行動",
+    "title": "行動帶來方向",
+    "content": "讓決心化為行動，讓行動化為結果。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 422,
+    "theme": "情緒流動",
+    "title": "允許情緒存在",
+    "content": "允許情緒存在，這就是對自己的慈悲。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 423,
+    "theme": "人際連結",
+    "title": "理解是關愛",
+    "content": "理解是一種關愛，最溫柔的關愛。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 424,
+    "theme": "身體智慧",
+    "title": "身體懂得療癒",
+    "content": "身體懂得如何療癒，給它時間和空間。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 425,
+    "theme": "自我接納",
+    "title": "接納帶來和解",
+    "content": "接納帶來和解，與自己和解。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 426,
+    "theme": "當下覺察",
+    "title": "覺察是回家",
+    "content": "覺察是回家，回到當下就是回家。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 427,
+    "theme": "溫柔休息",
+    "title": "你可以停下",
+    "content": "疲憊是真的，是身體的真實反應。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 428,
+    "theme": "內在對話",
+    "title": "溫柔的話語",
+    "content": "溫柔的話語，有巨大的力量。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 429,
+    "theme": "放手流動",
+    "title": "流動是變化",
+    "content": "流動是變化，變化是唯一不變的。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 430,
+    "theme": "感恩日常",
+    "title": "看見簡單之美",
+    "content": "看見簡單之美，它最純粹。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 431,
+    "theme": "微行動",
+    "title": "讓決心化為行動",
+    "content": "相信每個當下都有它的價值。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 432,
+    "theme": "情緒流動",
+    "title": "情緒帶來理解",
+    "content": "情緒帶來理解，理解帶來療癒。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 433,
+    "theme": "人際連結",
+    "title": "關係需要維護",
+    "content": "關係需要維護，不是擁有就會永遠。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 434,
+    "theme": "身體智慧",
+    "title": "緊繃等待釋放",
+    "content": "緊繃在等待釋放，等待你的允許。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 435,
+    "theme": "自我接納",
+    "title": "你足夠了",
+    "content": "你足夠了，真的足夠了。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 436,
+    "theme": "當下覺察",
+    "title": "當下就夠了",
+    "content": "當下就夠了，真的夠了。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 437,
+    "theme": "溫柔休息",
+    "title": "疲憊是真的",
+    "content": "休息是照顧，照顧好自己。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 438,
+    "theme": "內在對話",
+    "title": "內在聲音要改變",
+    "content": "內在聲音需要被改變，如果它傷人。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 439,
+    "theme": "放手流動",
+    "title": "放手是覺醒",
+    "content": "放手是覺醒，醒來於控制的夢裡。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 440,
+    "theme": "感恩日常",
+    "title": "感恩此時此刻",
+    "content": "感恩此時此刻，這就是全部。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 441,
+    "theme": "微行動",
+    "title": "相信每個當下",
+    "content": "行動創造未來，而不是等待未來。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 442,
+    "theme": "情緒流動",
+    "title": "感受是內在的真實",
+    "content": "感受是內在的真實，比任何面具都珍貴。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 443,
+    "theme": "人際連結",
+    "title": "真實是連結",
+    "content": "真實就是連結，不需要偽裝和防備。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 444,
+    "theme": "身體智慧",
+    "title": "身體是內在的指引",
+    "content": "身體是內在的指引，帶你找到需要的。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 445,
+    "theme": "自我接納",
+    "title": "完整是本質",
+    "content": "完整是本質，你本來就完整。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 446,
+    "theme": "當下覺察",
+    "title": "現在是答案",
+    "content": "現在是答案，答案一直在這裡。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 447,
+    "theme": "溫柔休息",
+    "title": "休息是照顧",
+    "content": "停下是愛，對自己的愛。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 448,
+    "theme": "內在對話",
+    "title": "善待是選擇",
+    "content": "善待是選擇，每天都可以選擇。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 449,
+    "theme": "放手流動",
+    "title": "控制是痛苦",
+    "content": "控制是痛苦的來源，放手是平靜的開始。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 450,
+    "theme": "感恩日常",
+    "title": "平凡很美好",
+    "content": "平凡很美好，不需要更多。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 451,
+    "theme": "微行動",
+    "title": "行動創造未來",
+    "content": "為自己負責，就是為自己的人生做主。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 452,
+    "theme": "情緒流動",
+    "title": "情緒會教會你",
+    "content": "情緒會教會你，那些還沒學會的課題。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 453,
+    "theme": "人際連結",
+    "title": "理解創造和諧",
+    "content": "理解創造和諧，和諧創造美好。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 454,
+    "theme": "身體智慧",
+    "title": "呼吸連結當下",
+    "content": "呼吸連結著當下，一呼一吸都是存在。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 455,
+    "theme": "自我接納",
+    "title": "接納是選擇",
+    "content": "接納是選擇，選擇善待自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 456,
+    "theme": "當下覺察",
+    "title": "覺察是當下",
+    "content": "覺察就是當下，當下就是覺察。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 457,
+    "theme": "溫柔休息",
+    "title": "停下是愛",
+    "content": "你應該停下，為了自己好。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 458,
+    "theme": "內在對話",
+    "title": "你值得被善待",
+    "content": "你值得被善待，特別是被自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 459,
+    "theme": "放手流動",
+    "title": "鬆開是喜悅",
+    "content": "鬆開就喜悅了，不再與生命拉扯。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 460,
+    "theme": "感恩日常",
+    "title": "美好在身邊",
+    "content": "美好在身邊，在你觸手可及的地方。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 461,
+    "theme": "微行動",
+    "title": "為自己負責",
+    "content": "讓行動說話，它比任何語言都有力量。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 462,
+    "theme": "情緒流動",
+    "title": "允許自己感覺",
+    "content": "允許自己感覺，這是最基本的自我關愛。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 463,
+    "theme": "人際連結",
+    "title": "關係是成長",
+    "content": "關係是成長的土壤，讓彼此更好。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 464,
+    "theme": "身體智慧",
+    "title": "身體需要休息",
+    "content": "身體需要休息，這不是奢侈是必需。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 465,
+    "theme": "自我接納",
+    "title": "你值得被愛護",
+    "content": "你值得被愛護，被自己愛護。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 466,
+    "theme": "當下覺察",
+    "title": "此刻是完整",
+    "content": "此刻是完整，完完整整。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 467,
+    "theme": "溫柔休息",
+    "title": "你應該停下",
+    "content": "累要被承認，被自己承認。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 468,
+    "theme": "內在對話",
+    "title": "改變對自己的方式",
+    "content": "改變對自己的方式，生命會改變。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 469,
+    "theme": "放手流動",
+    "title": "流動是生命",
+    "content": "流動就是生命，生命就是流動。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 470,
+    "theme": "感恩日常",
+    "title": "看見日常之光",
+    "content": "看見日常之光，它照亮生命。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 471,
+    "theme": "微行動",
+    "title": "讓行動說話",
+    "content": "相信選擇的力量，每個選擇都在塑造你。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 472,
+    "theme": "情緒流動",
+    "title": "感受是內在的回應",
+    "content": "感受是內在的回應，回應著生命的每個時刻。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 473,
+    "theme": "人際連結",
+    "title": "脆弱是真實",
+    "content": "脆弱就是真實，真實就是美。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 474,
+    "theme": "身體智慧",
+    "title": "疼痛帶來訊息",
+    "content": "疼痛帶來訊息，訊息帶來理解。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 475,
+    "theme": "自我接納",
+    "title": "擁抱自己",
+    "content": "擁抱自己，包括所有的一切。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 476,
+    "theme": "當下覺察",
+    "title": "當下是一切",
+    "content": "當下是一切，一切都在此刻。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 477,
+    "theme": "溫柔休息",
+    "title": "累要被承認",
+    "content": "休息不是浪費時間，而是投資。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 478,
+    "theme": "內在對話",
+    "title": "你可以愛自己",
+    "content": "你可以愛自己，就從現在開始。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 479,
+    "theme": "放手流動",
+    "title": "放下就自由",
+    "content": "放下就自由了，真正的自由。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 480,
+    "theme": "感恩日常",
+    "title": "感恩現在擁有",
+    "content": "感恩現在擁有的，就是富足。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 481,
+    "theme": "微行動",
+    "title": "相信選擇的力量",
+    "content": "行動帶來改變，改變帶來成長。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 482,
+    "theme": "情緒流動",
+    "title": "情緒是成長的養分",
+    "content": "情緒是成長的養分，滋養著更完整的你。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 483,
+    "theme": "人際連結",
+    "title": "連結需要信任",
+    "content": "連結需要信任，信任需要時間累積。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 484,
+    "theme": "身體智慧",
+    "title": "身體記得所有未說的話",
+    "content": "身體記住一切，記住愛也記住傷。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 485,
+    "theme": "自我接納",
+    "title": "接納是回家",
+    "content": "接納是回家，回到真實的自己。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 486,
+    "theme": "當下覺察",
+    "title": "當下是唯一真實存在的時刻",
+    "content": "回到呼吸，回到現在，回到真實。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 487,
+    "theme": "溫柔休息",
+    "title": "休息是為了走更遠的路",
+    "content": "停下來，給自己一點空間呼吸。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 488,
+    "theme": "內在對話",
+    "title": "你對自己說的話，形塑了你是誰",
+    "content": "內在的對話，決定了你的幸福。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 489,
+    "theme": "放手流動",
+    "title": "放手不是放棄，是允許流動",
+    "content": "不抓不放，隨順生命的流動。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 490,
+    "theme": "感恩日常",
+    "title": "感恩讓平凡成為禮物",
+    "content": "日常的美好，是最真實的幸福。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  },
+  {
+    "id": 491,
+    "theme": "微行動",
+    "title": "行動帶來改變",
+    "content": "此刻就開始，未來會感謝現在的你。",
+    "breath": "energize",
+    "color": "#FFE8D6"
+  },
+  {
+    "id": 492,
+    "theme": "情緒流動",
+    "title": "感受需要被擁抱",
+    "content": "感受需要被擁抱，就像你需要被擁抱。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 493,
+    "theme": "人際連結",
+    "title": "理解是療癒",
+    "content": "理解是療癒，被理解就是被愛。",
+    "breath": "gentle",
+    "color": "#D8E3E8"
+  },
+  {
+    "id": 494,
+    "theme": "身體智慧",
+    "title": "聆聽身體的訊號",
+    "content": "聆聽身體，就是聆聽內在最真實的聲音。",
+    "breath": "restore",
+    "color": "#E8F4E8"
+  },
+  {
+    "id": 495,
+    "theme": "自我接納",
+    "title": "你很珍貴",
+    "content": "你很珍貴，就是現在這樣。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 496,
+    "theme": "當下覺察",
+    "title": "回到呼吸就是回家",
+    "content": "此刻，生命正在發生。",
+    "breath": "focus",
+    "color": "#E8F0F8"
+  },
+  {
+    "id": 497,
+    "theme": "溫柔休息",
+    "title": "停下來不是落後",
+    "content": "你需要休息，就像需要呼吸一樣。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 498,
+    "theme": "內在對話",
+    "title": "內在的聲音可以溫柔",
+    "content": "溫柔對待自己，是一生的功課。",
+    "breath": "gentle",
+    "color": "#F0E8F4"
+  },
+  {
+    "id": 499,
+    "theme": "放手流動",
+    "title": "有些事不在你的掌控中",
+    "content": "鬆手吧，你會發現一切都還好。",
+    "breath": "calm",
+    "color": "#E8F4F8"
+  },
+  {
+    "id": 500,
+    "theme": "感恩日常",
+    "title": "美好一直都在",
+    "content": "感恩平凡，因為它組成了你的生命。",
+    "breath": "hope",
+    "color": "#FFF4E8"
+  }
+]
