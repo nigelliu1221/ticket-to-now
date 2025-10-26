@@ -1,0 +1,24 @@
+🎫 Ticket to Now - 開啟方式
+
+方法 1：使用獨立版本（最簡單）
+================================
+1. 開啟 ticket-to-now-standalone.html
+2. 直接使用！
+
+方法 2：使用本地伺服器
+================================
+Windows:
+1. 雙擊 START_SERVER.bat
+2. 開啟瀏覽器訪問 http://localhost:8000
+
+Mac/Linux:
+1. 雙擊 START_SERVER.sh（或在終端執行）
+2. 開啟瀏覽器訪問 http://localhost:8000
+
+方法 3：部署到 GitHub Pages
+================================
+1. 上傳到 GitHub repository
+2. 在 Settings > Pages 啟用 GitHub Pages
+3. 訪問 https://你的用戶名.github.io/ticket-to-now
+
+詳細說明請參考：FILE_LOADING_FIX.md

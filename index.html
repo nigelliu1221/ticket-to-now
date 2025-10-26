@@ -72,23 +72,14 @@
                     <h2 id="ticketTitle" class="ticket-title"></h2>
                     <p id="ticketContent" class="ticket-text"></p>
                 </div>
-
-                <div class="question-section">
-                    <div class="question-icon">🪞</div>
-                    <p id="ticketQuestion" class="question-text"></p>
-                </div>
             </div>
 
             <!-- 動作按鈕 -->
             <div class="action-buttons">
                 <button id="breathButton" class="btn-breath">
                     <span class="icon">💨</span>
-                    <span>呼吸練習 1 分鐘</span>
+                    <span>呼吸練習 30 秒</span>
                 </button>
-                <div class="button-row">
-                    <button id="saveButton" class="btn-action">收藏</button>
-                    <button id="shareButton" class="btn-action">分享</button>
-                </div>
             </div>
         </div>
     </div>
@@ -99,7 +90,7 @@
             <div class="breath-container">
                 <div id="breathAnimation" class="breath-animation"></div>
                 <p id="breathInstruction" class="breath-instruction">吸氣</p>
-                <p id="breathTimer" class="breath-timer">1:00</p>
+                <p id="breathTimer" class="breath-timer">0:30</p>
             </div>
             <button id="stopBreathButton" class="btn-minimal">結束練習</button>
         </div>
@@ -107,24 +98,6 @@
 
     <!-- 通知提示 -->
     <div id="notification" class="notification"></div>
-
-    <!-- 收藏列表按鈕 -->
-    <button id="savedListButton" class="floating-button" title="查看收藏">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M19 21L12 16L5 21V5C5 3.89543 5.89543 3 7 3H17C18.1046 3 19 3.89543 19 5V21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-    </button>
-
-    <!-- 收藏列表 Modal -->
-    <div id="savedListModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>我的收藏</h3>
-                <button id="closeModal" class="close-button">×</button>
-            </div>
-            <div id="savedList" class="saved-list"></div>
-        </div>
-    </div>
 
     <script src="js/index.js" type="module"></script>
 </body>

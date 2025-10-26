@@ -8,7 +8,7 @@ class TicketToNow {
         this.currentTicket = null;
         this.savedTickets = this.loadSavedTickets();
         this.breathTimer = null;
-        this.breathTimeRemaining = 60;
+        this.breathTimeRemaining = 30; // 改為 30 秒
         
         this.init();
     }
@@ -76,22 +76,9 @@ class TicketToNow {
         // 結果畫面
         document.getElementById('backButton').addEventListener('click', () => this.backToMain());
         document.getElementById('breathButton').addEventListener('click', () => this.startBreathPractice());
-        document.getElementById('saveButton').addEventListener('click', () => this.saveTicket());
-        document.getElementById('shareButton').addEventListener('click', () => this.shareTicket());
 
         // 呼吸練習畫面
         document.getElementById('stopBreathButton').addEventListener('click', () => this.stopBreathPractice());
-
-        // 收藏列表
-        document.getElementById('savedListButton').addEventListener('click', () => this.showSavedList());
-        document.getElementById('closeModal').addEventListener('click', () => this.closeSavedList());
-
-        // 點擊 modal 背景關閉
-        document.getElementById('savedListModal').addEventListener('click', (e) => {
-            if (e.target.id === 'savedListModal') {
-                this.closeSavedList();
-            }
-        });
     }
 
     drawTicket() {
@@ -135,7 +122,6 @@ class TicketToNow {
         document.getElementById('ticketTheme').textContent = ticket.theme;
         document.getElementById('ticketTitle').textContent = ticket.title;
         document.getElementById('ticketContent').textContent = ticket.content;
-        document.getElementById('ticketQuestion').textContent = ticket.question;
 
         // 更新顏色主題
         const breathCircle = document.getElementById('breathCircle');
@@ -161,7 +147,7 @@ class TicketToNow {
         }
 
         this.switchScreen('breathScreen');
-        this.breathTimeRemaining = 60;
+        this.breathTimeRemaining = 30; // 改為 30 秒
         this.updateBreathTimer();
 
         // 開始呼吸動畫與指引
