@@ -9,6 +9,7 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎟️</text></svg>">
     
     <style>
+    <style>
         * {
             margin: 0;
             padding: 0;
@@ -160,70 +161,22 @@
             to { opacity: 1; transform: translateY(0); }
         }
         
-        .ticket-card {
-            background: white;
-            border-radius: 20px;
-            padding: 30px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
-            margin-top: 20px;
-        }
-        
-        .ticket-number {
-            font-size: 14px;
-            color: #999;
-            margin-bottom: 8px;
-        }
-        
-        .ticket-theme {
-            display: inline-block;
-            padding: 6px 16px;
-            background: #FFF4E8;
-            color: #FF9966;
-            border-radius: 20px;
-            font-size: 13px;
-            font-weight: 600;
-            margin-bottom: 15px;
-        }
-        
-        .ticket-title {
-            font-size: 24px;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 15px;
-            line-height: 1.4;
-        }
-        
-        .ticket-content {
-            font-size: 16px;
-            color: #555;
-            line-height: 1.8;
-            margin-bottom: 25px;
-        }
-        
-        .breath-button {
-            background: linear-gradient(135deg, #6B8DD6 0%, #8E9DCC 100%);
-            margin-top: 15px;
-        }
-        
-        .breath-button:hover {
-            box-shadow: 0 8px 20px rgba(107, 141, 214, 0.4);
-        }
-        
         .back-button {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            width: 50px;
-            height: 50px;
-            background: rgba(255, 255, 255, 0.95);
+            background: white;
+            color: #FF9966;
+            border: 2px solid #FF9966;
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
             display: none;
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            transition: all 0.3s;
-            z-index: 1001;
+            box-shadow: 0 4px 12px rgba(255, 153, 102, 0.3);
+            transition: all 0.2s;
+            font-size: 24px;
+            padding: 0;
+            margin: 20px auto 0;
         }
         
         .back-button.show {
@@ -231,123 +184,173 @@
         }
         
         .back-button:hover {
+            background: #FF9966;
+            color: white;
             transform: scale(1.1);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
         }
         
-        .back-button::before {
-            content: '←';
-            font-size: 24px;
-            color: #FF9966;
+        .ticket {
+            background: #FFF5ED;
+            padding: 30px;
+            border-radius: 16px;
+            margin: 20px 0;
+            text-align: left;
         }
         
-        .breath-circle {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.3);
+        .ticket-header {
             display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 30px auto;
-            transition: all 1s ease-in-out;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #FF9966;
+            font-weight: 500;
+            text-align: left;
         }
         
-        .breath-circle.inhale {
-            transform: scale(1.5);
-            background: rgba(255, 255, 255, 0.5);
-        }
-        
-        .breath-circle.hold {
-            transform: scale(1.5);
-            background: rgba(255, 255, 255, 0.5);
-        }
-        
-        .breath-circle.exhale {
-            transform: scale(1);
-            background: rgba(255, 255, 255, 0.3);
-        }
-        
-        .breath-name {
+        .ticket-title {
             font-size: 24px;
             font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        
+        .ticket-content {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #555;
+            text-align: left;
+        }
+        
+        .breath-button {
+            background: rgba(255, 153, 102, 0.1);
+            color: #FF9966;
+            border: 2px solid #FF9966;
+            margin-top: 20px;
+        }
+        
+        .breath-button:hover {
+            background: rgba(255, 153, 102, 0.2);
+        }
+        
+        /* 呼吸練習畫面 */
+        .breath-name {
+            font-size: 28px;
+            font-weight: 700;
             margin-bottom: 8px;
         }
         
         .breath-desc {
             font-size: 16px;
             opacity: 0.9;
-            margin-bottom: 20px;
+            margin-bottom: 50px;
+        }
+        
+        .breath-circle {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 50px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .breath-circle.inhale {
+            transform: scale(1.6);
+            transition: transform var(--inhale-duration) cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .breath-circle.hold {
+            transform: scale(1.6);
+            transition: transform 0.3s ease;
+        }
+        
+        .breath-circle.exhale {
+            transform: scale(1);
+            transition: transform var(--exhale-duration) cubic-bezier(0.4, 0, 0.2, 1);
         }
         
         .breath-instruction {
-            font-size: 48px;
-            font-weight: 600;
+            font-size: 36px;
+            font-weight: 700;
             margin-bottom: 20px;
+            min-height: 50px;
         }
         
         .breath-timer {
-            font-size: 20px;
-            opacity: 0.8;
-            margin-top: 20px;
+            font-size: 72px;
+            font-weight: 700;
+            margin-bottom: 50px;
         }
         
         .stop-button {
-            margin-top: 30px;
-            background: rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
             border: 2px solid white;
+            padding: 12px 32px;
+            width: auto;
         }
         
         .stop-button:hover {
-            background: rgba(255, 255, 255, 0.5);
-        }
-        
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: #666;
+            background: rgba(255, 255, 255, 0.3);
         }
     </style>
 </head>
 <body>
-    <div id="mainScreen" class="main-screen">
-        <div class="container">
-            <div class="tagline">🍊 明想正念日票</div>
+    <div class="container">
+        <div id="mainScreen" class="main-screen">
+            <img src="data:image/png;base64,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" alt="Logo" class="logo">
+            <div class="tagline">明想正念日票</div>
             <h1>Ticket to Now</h1>
-            <p class="subtitle" id="subtitle">一個簡單輸入，就能讓你回到當下。</p>
+            <p id="subtitle" class="subtitle">載入中...</p>
             
             <div class="input-section">
-                <input type="number" id="ticketInput" placeholder="輸入 1-512" min="1" max="512">
-                <button id="startButton">抽取你的票</button>
-                <p class="hint">每張票，都通往當下的自己</p>
+                <input 
+                    type="number" 
+                    id="ticketInput" 
+                    placeholder="輸入票號 1-500" 
+                    min="1" 
+                    max="500"
+                >
+                <button id="startButton">開始</button>
             </div>
+            
+            <p class="hint">輸入票號後按 Enter 或點擊開始</p>
         </div>
-    </div>
-    
-    <div id="result" class="result">
-        <div class="container">
-            <div class="ticket-card">
-                <div class="ticket-number" id="ticketNumber">#1</div>
-                <div class="ticket-theme" id="ticketTheme">主題</div>
-                <h2 class="ticket-title" id="ticketTitle">標題</h2>
-                <p class="ticket-content" id="ticketContent">內容</p>
-                <button id="breathButton" class="breath-button">開始呼吸練習</button>
+        
+        <div id="result" class="result">
+            <div class="ticket">
+                <div class="ticket-header">
+                    <span id="ticketNumber"></span>
+                    <span id="ticketTheme"></span>
+                </div>
+                <div class="ticket-title" id="ticketTitle"></div>
+                <div class="ticket-content" id="ticketContent"></div>
             </div>
+            
+            <button class="breath-button" id="breathButton">
+                💨 呼吸練習 30 秒
+            </button>
         </div>
+        
+        <button class="back-button" id="backButton">←</button>
     </div>
-    
-    <div id="breathScreen" class="breath-screen">
-        <div class="breath-name" id="breathName">平衡呼吸</div>
-        <div class="breath-desc" id="breathDesc">最基礎的平衡節奏</div>
-        <div class="breath-instruction" id="breathInstruction">準備開始</div>
-        <div class="breath-circle" id="breathCircle"></div>
-        <div class="breath-timer">剩餘 <span id="breathTimer">30</span> 秒</div>
-        <button id="stopButton" class="stop-button">結束練習</button>
-    </div>
-    
-    <div id="backButton" class="back-button"></div>
     
     <div class="version">v2.4.1</div>
+    
+    <div id="breathScreen" class="breath-screen">
+        <div class="breath-name" id="breathName"></div>
+        <div class="breath-desc" id="breathDesc"></div>
+        <div class="breath-circle" id="breathCircle"></div>
+        <div class="breath-instruction" id="breathInstruction">準備開始</div>
+        <div class="breath-timer" id="breathTimer">30</div>
+        <button class="stop-button" id="stopButton">結束練習</button>
+    </div>
+    
+    <script>
     
     <script>
         // 從外部 JSON 檔案載入票券資料
@@ -361,13 +364,17 @@
                 }
                 tickets = await response.json();
                 console.log('✅ 已載入', tickets.length, '張票券');
+                // 載入完成後初始化介面
+                loadRandomTagline();
+                console.log('✅ Ticket to Now v2.4.1');
+                console.log('🍊 明想正念日票');
+                console.log('🌬️ 10 種呼吸法已就緒');
             } catch (error) {
                 console.error('❌ 載入票券資料失敗:', error);
-                alert('無法載入票券資料，請確認 tickets_data.json 檔案存在');
+                document.getElementById('subtitle').textContent = '載入失敗，請重新整理頁面';
             }
         }
         
-        const taglines = ["一個簡單輸入,就能讓你回到當下。", "此刻，是你唯一需要的地方。", "呼吸之間，找回內在的寧靜。", "每張票，都是回到自己的邀請。", "停下來，感受當下的你。", "在這裡，與真實的自己相遇。", "一個號碼，一次回到自己。", "當下，是最好的禮物。", "輸入，然後回家。", "此時此刻，就是全部。", "找一張票，給此刻的自己。", "安靜下來，聆聽內在的聲音。", "每個當下，都值得被看見。", "回到呼吸，回到此刻。", "一張票，一個回到自己的時刻。", "在忙碌中，給自己一分鐘。", "此刻的你，需要被溫柔對待。", "停下腳步，感受生命的流動。", "一個輸入，一次內在對話。", "當下，是唯一真實存在的。", "找回自己，從這一刻開始。", "呼吸，是回家的路。", "每一刻，都是重新開始。", "在當下，找到平靜。", "給自己一個暫停的理由。", "此時，是你最需要的時刻。", "回到身體，回到當下。", "一張票，一次與自己的約定。", "當下不需要理由，只需要在。", "停下來，你會聽見自己。"];
         const breathPatterns = [{"id": 1, "name": "平衡呼吸", "description": "最基礎的平衡節奏", "inhale": 4, "hold": 0, "exhale": 4, "cycles": 3, "totalTime": 30}, {"id": 2, "name": "放鬆呼吸", "description": "延長吐氣，釋放緊張", "inhale": 3, "hold": 0, "exhale": 6, "cycles": 3, "totalTime": 30}, {"id": 3, "name": "活力呼吸", "description": "快速節奏，提振精神", "inhale": 2, "hold": 0, "exhale": 2, "cycles": 7, "totalTime": 30}, {"id": 4, "name": "深度呼吸", "description": "緩慢深入，平靜身心", "inhale": 5, "hold": 0, "exhale": 5, "cycles": 3, "totalTime": 30}, {"id": 5, "name": "專注呼吸", "description": "短暫停頓，提升專注", "inhale": 3, "hold": 2, "exhale": 3, "cycles": 3, "totalTime": 30}, {"id": 6, "name": "舒緩呼吸", "description": "溫和節奏，舒緩情緒", "inhale": 4, "hold": 1, "exhale": 5, "cycles": 3, "totalTime": 30}, {"id": 7, "name": "清晨呼吸", "description": "迎接新的一天", "inhale": 3, "hold": 1, "exhale": 3, "cycles": 4, "totalTime": 30}, {"id": 8, "name": "午間充電", "description": "快速恢復能量", "inhale": 2, "hold": 1, "exhale": 2, "cycles": 6, "totalTime": 30}, {"id": 9, "name": "睡前放鬆", "description": "準備進入夢鄉", "inhale": 4, "hold": 2, "exhale": 6, "cycles": 2, "totalTime": 30}, {"id": 10, "name": "正念呼吸", "description": "回到當下此刻", "inhale": 4, "hold": 2, "exhale": 4, "cycles": 3, "totalTime": 30}];
         
         let countdownTimer = null;
@@ -375,7 +382,7 @@
         let currentCycle = 0;
         let timeRemaining = 30;
         let isBreathing = false;
-        let breathSessionCount = 0;
+        let breathSessionCount = 0;  // 追蹤呼吸練習次數
         
         function loadRandomTagline() {
             const randomIndex = Math.floor(Math.random() * taglines.length);
@@ -415,6 +422,7 @@
         }
         
         function startBreath() {
+            // 每次練習使用不同的呼吸法
             breathSessionCount++;
             const patternIndex = breathSessionCount % breathPatterns.length;
             currentPattern = breathPatterns[patternIndex];
@@ -516,13 +524,10 @@
             if (e.key === 'Enter') showTicket();
         });
         
-        // 初始化：載入票券資料
-        loadTickets().then(() => {
-            loadRandomTagline();
-            console.log('✅ Ticket to Now v2.4.1');
-            console.log('🍊 明想正念日票');
-            console.log('🌬️ 10 種呼吸法已就緒');
-        });
+        loadRandomTagline();
+        
+        // 頁面載入時執行
+        loadTickets();
     </script>
 </body>
 </html>
